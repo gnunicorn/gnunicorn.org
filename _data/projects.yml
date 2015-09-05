@@ -1,0 +1,19 @@
+- name: "OpenSourceBash"
+  link: "http://www.OpenSourceBash.org"
+  desc: "OSB"
+  tasks:
+    - dev
+    - organiser
+- name: "TechTalks.xyz"
+  link: http://www.techtalks.xyz/
+  github: techtalksHQ
+  desc: "A platform"
+  tasks:
+    - dev
+    - founder
+    - designer
+    - architect
+  technologies:
+    - discourse
+    - emberjs
+    - css

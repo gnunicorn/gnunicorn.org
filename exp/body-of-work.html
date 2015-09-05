@@ -1,0 +1,90 @@
+---
+layout: "default"
+title: "Body of Work"
+---
+<link rel="stylesheet" href="awesomplete.css" />
+
+<style type="text/css" media="screen">
+.project-box.hidden {
+    background-color: pink;
+}
+</style>
+
+<h1>Body of Work</h1>
+
+<input id="search-bow" autocomplete="off" placeholder="search" />
+
+<div id="res"></div>
+
+<div id="projects">
+{% for project in site.data.projects %}
+    <div id="{{project.name | slugify}}" class="project-box"
+    {% if project.tasks != nil %}
+        data-tasks="{{project.tasks | join:','}}"
+    {% endif %}
+    {% if project.technologies != nil %}
+        data-technologies="{{project.technologies | join:','}}"
+    {% endif %}
+    >
+        <h2>{{project.name}}</h2>
+    </div>
+{% endfor %}
+</div>
+
+
+<script src="awesomplete.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+    var tags = [];
+{% for project in site.data.projects %}
+    {% if project.tasks != nil %}
+        tags = tags.concat({{project.tasks | jsonify}})
+    {% endif %}
+    {% if project.technologies != nil %}
+        tags = tags.concat({{project.technologies | jsonify}})
+    {% endif %}
+{% endfor %}
+
+    var input = document.getElementById("search-bow");
+    var awesomplete = new Awesomplete(input, {
+        filter: function(text, input) {
+            return Awesomplete.FILTER_CONTAINS(text, input.match(/[^,]*$/)[0]);
+        },
+        replace: function(text) {
+            var before = this.input.value.match(/^.+,\s*|/)[0];
+            this.input.value = before + text + ", ";
+        },
+    });
+    awesomplete.list = tags.filter(function(el,i,a){return i==a.indexOf(el);}).sort()
+
+    input.addEventListener('awesomplete-selectcomplete', function(evt){
+        var keys = evt.target.value.split(", "),
+            boxes = document.getElementsByClassName('project-box');
+
+        for (var i=0; i < boxes.length; i++){
+            var box = boxes[i],
+                to_check = [],
+                found = false;
+
+            if (box.dataset.tasks)
+                to_check = to_check.concat(box.dataset.tasks.split(","))
+
+            if (box.dataset.technologies)
+                to_check = to_check.concat(box.dataset.technologies.split(","))
+
+            console.log(to_check, keys);
+
+            for (var ki=0; ki < keys.length; ki++){
+                if(to_check.indexOf(keys[ki]) > -1){
+                    found = true;
+                    break
+                }
+            }
+
+            if (found){
+                box.classList.remove("hidden")
+            } else {
+                box.classList.add("hidden")
+            }
+        }
+    });
+</script>
