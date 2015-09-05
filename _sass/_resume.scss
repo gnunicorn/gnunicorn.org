@@ -17,6 +17,31 @@ $color-5: #f0ca45; // yellow
 $primary-font: 'Droid Serif', serif;
 $secondary-font: 'Open Sans', sans-serif;
 
+$badge-font-size: 0.75em !default;
+
+@mixin badge($color: #999) {
+  background-color: $color;
+  border-radius: $badge-font-size * 5;
+  color: darken($color, 60%);
+  display: inline-block;
+  font-size: $badge-font-size;
+  line-height: 1;
+  padding: 0.4em 1.2em;
+}
+
+.badge {
+    @include badge(#fff6bf);
+}
+
+.badge-hl {
+    @include badge(#e5edf8);
+}
+
+.badge-super {
+    @include badge(#e6efc2);
+}
+
+
 // mixins - rem fallback - credits: http://zerosixthree.se/
 
 @function calculateRem($size) {
@@ -160,17 +185,10 @@ Main components
     height: 40px;
     border-radius: 50%;
     box-shadow: 0 0 0 4px $color-3, inset 0 2px 0 rgba(#000, .08), 0 3px 0 4px rgba(#000, .05) ;
-
-    img {
-        display: block;
-        width: 24px;
-        height: 24px;
-        position: relative;
-        left: 50%;
-        top: 50%;
-        margin-left: -12px;
-        margin-top: -12px;
-    }
+    text-align: center;
+    line-height: 56px;
+    font-size: 30px;
+    color: white;
 
     &.cd-picture {
         background: $color-4;
