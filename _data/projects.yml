@@ -14,12 +14,14 @@
     - jekyll
     - CSS3
     - CSS3/Animation
+
+
 - name: "TechTalks"
   date: "June 2015 – today"
   link: http://www.techtalks.xyz/
   github: techtalksHQ
   pitch: "lifting the best videos in tech"
-  desc: "A content-platform for videos in tech, completely plugin-based customasations of <a href='http://www.discourse.org/''>Discourse</a>. Videos are automagically fetched from conferences and other resources, categorised and user can like and comment upon on them. From idea over concepted to implemention done together with <a href='http://www.anoukruhaak.com'>Anouk Ruhaak</a>. "
+  desc: "A content-platform for videos in tech, completely plugin-based customasations of [Discourse](http://www.discourse.org/). Videos are automagically fetched from conferences and other resources, categorised and user can like and comment upon on them. From idea over concepted to implemention done together with <a href='http://www.anoukruhaak.com'>Anouk Ruhaak</a>. "
   image: http://anoukruhaak.com/image/techtalks-1.png
   tasks:
     - founder
@@ -32,7 +34,8 @@
     - videojs
     - CSS3
     - CSS3/Animation
-- name: "Antilope"
+
+- name: "Antelope"
   date: "May 2015 – June 2015"
   github: hackership/antilope
   pitch: "Reimaging ERP for mid-sized companies, based on an offline-first document store system."
@@ -46,7 +49,111 @@
     - engineer
   technologies:
     - reactjs
-    - docker
     - couchdb
     - pouchdb
+    - webpack
+    - libreoffice
+    - docker
     - microservices
+
+- name: "Anonymous Reviews"
+  date: "Mar 2015 – July 2015"
+  github: hackership/review-backend
+  pitch: "Ensure an unbiased application review through this process manager"
+  desc: "An internal tool to manage the application pipeline for [Hackership](http://www.hackership.org) and ensure a fair and unbiased process for all applicants."
+  # image: /assets/images/projects/antilope.svg
+  # image_css: 'background-size: contain; background-repeat: no-repeat'
+  tasks:
+    - concept
+    - architect
+    - engineer
+  technologies:
+    - reactjs
+    - python
+    - flask
+    - webpack
+
+# ----- DISCOURSE STUFF
+- name: "Wer Weiss Was"
+  github: werweisswas/
+  link: http://www.wer-weiss-was.de/
+  date: "April 2014 – June 2015"
+  pitch: "Migrating 15yr old wer-weiss-was.de on a [Discourse](http://www.discourse.org) fork with plenty of customizations."
+  desc: "Moving Germany's second biggest general question-answer-community off its 15yr old perl-script and onto a discourse-based rewrite. Trying to keep the changes to core to a minimum and implement everything as plugins, which can ultimately be outsourced. Most famously, the [tagger](#tagger)-plugin, [questions-plugin](https://github.com/ligthyear/discourse-plugin-questions), [sidebar](https://github.com/ligthyear/discourse-plugin-sidebar), [profile notes](https://meta.discourse.org/t/private-profile-notes/12794). Aside from the obvious changes to the design, and support for multiple archetypes (including video on kaltura) With its over 5Mio post, it is probably the largest discourse installation to date, which required further performance improvements in postrgresql and changes like using elastic search for search."
+  image: /assets/images/projects/wer-weiss-was.png
+  type: "relaunch"
+  tasks:
+   - architect
+   - engineer
+  technologies:
+   - discourse
+   - javascript
+   - emberjs
+   - ruby
+   - rails
+   - postgresql
+   - elasticsearch
+   - kaltura
+
+
+- name: "Tagger"
+  github: werweisswas/discourse-plugin-tagger
+  # link: 
+  date: "April - May 2014"
+  pitch: "Extending Discourse to provide Tags via a plugin"
+  desc: "Extend Discourse to provide tags through the plugin system. Including extensive changes to the composer to allow for autocomplete support for existing tags."
+  image: /assets/images/projects/tagger.png
+  type: "plugin"
+  tasks:
+   - concept
+   - engineer
+  technologies:
+   - discourse
+   - emberjs
+   - rails
+
+- name: "HAQL - injector"
+  github: discourse/discourse/compare/master...ligthyear:handlebars-injector
+  link: https://meta.discourse.org/t/injecting-templates-into-templates-through-plugins-introducing-haql/14694
+  date: "April 2014"
+  pitch: "**H**andlebars **A**bstract Syntax Tree **Q**uery **L**anguage and injector for discourse"
+  desc: "This case study patched discourse to apply HAQL-patches on to the templates syntax tree during the compile process of the handlebar templates. Thus allowing for plugins to ship template changes which would be integrated _at compile time_. Fast and pretty, unfortunately hard to maintain as every chnage to the file meant you needed new patches."
+  # image: /assets/images/projects/reply-gif.png
+  type: "case study"
+  tasks:
+   - architect
+   - engineer
+  technologies:
+   - discourse
+   - emberjs
+
+- name: "Discourse Reply Gif"
+  github: ligthyear/discourse-plugin-replygif
+  link: https://meta.discourse.org/t/replygif-browsing-and-adding-reaction-gifs-easily/14936
+  date: "April 2014"
+  pitch: "Quick and easily reply to a post with an awesome gif from [replygif.net](http://www.reply.gif)."
+  desc: "Frontend-heavy plugin, which allows the user to search the replygif library for a fitting image. Shows thumbnails and replaces them with the animated gif on hover."
+  image: /assets/images/projects/reply-gif.png
+  type: "plugin"
+  tasks:
+   - concept
+   - engineer
+  technologies:
+   - discourse
+   - emberjs
+
+- name: "Discourse Checkbox"
+  github: ligthyear/discourse-plugin-checklist
+  link: https://meta.discourse.org/t/checklist-a-simple-markdownified-checkbox-plugin-with-inline-updating/13428
+  date: "Mar 2014"
+  pitch: "Github Markdown inspired Checklists for Discourse"
+  desc: "Adds support for inline-editable check boxes inside discourse topics. Ideal to easily manage shared todo-lists within teams."
+  image: /assets/images/projects/checklist.png
+  type: "plugin"
+  tasks:
+   - concept
+   - engineer
+  technologies:
+   - discourse
+   - emberjs
+   - markdown

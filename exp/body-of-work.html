@@ -28,7 +28,7 @@ title: "Body of Work"
     >
         <div class="card-image" {% if project.image %}style="background-image:url({{project.image}});{%if project.image_css%}{{project.image_css}}{% endif %}" {% endif %}></div>
         <div class="card-header">
-          <h2>{{project.name}}<span class="more">{% if project.type %} {{project.type}}, {% endif %}{{project.date}}</span></h2>
+          <h2>{{project.name}}<span class="more">{% if project.type %} {{project.type}},{% endif %} {{project.date}}</span></h2>
           <div class="more">
             <div class="links">
                 {% if project.link %}
@@ -44,12 +44,12 @@ title: "Body of Work"
           </div>
         </div>
         <div class="card-copy">
-          <p>{{project.pitch}}
+          <p>{{project.pitch|markdownify}}
             <a href="#{{project.name | slugify}}" class="hide-on-more">read more</a>
           </p>
 
           <div class="more">
-              <p>{{project.desc}}</p>
+              <p>{{project.desc|markdownify}}</p>
               <p class="badges">
                 {% for task in project.technologies %}
                     <span class="task-badge">{{task}}</span>
