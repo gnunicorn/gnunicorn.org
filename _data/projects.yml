@@ -131,7 +131,7 @@
   github: ligthyear/discourse-plugin-replygif
   link: https://meta.discourse.org/t/replygif-browsing-and-adding-reaction-gifs-easily/14936
   date: "April 2014"
-  pitch: "Quick and easily reply to a post with an awesome gif from [replygif.net](http://www.reply.gif)."
+  pitch: "Quick and easily reply to a post with an awesome gif from [replygif.net](http://www.replygif.net)."
   desc: "Frontend-heavy plugin, which allows the user to search the replygif library for a fitting image. Shows thumbnails and replaces them with the animated gif on hover."
   image: /assets/images/projects/reply-gif.png
   type: "plugin"

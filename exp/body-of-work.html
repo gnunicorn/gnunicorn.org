@@ -179,26 +179,25 @@ title: "Body of Work"
 
     /// ------------------ DONE FILTER
 
-    function clearActive(){
-        _each(document.getElementsByClassName('active-box'), function(elem){
-            elem.classList.remove('active-box');
-        })
-    }
-
     _each(document.getElementsByClassName('project-box'), function(elem){
-        elem.addEventListener('click', function(){
+        elem.addEventListener('click', function(evt){
             if (elem.classList.contains("active-box")){
-                elem.classList.remove("active-box");
+                window.location.hash = '';
             } else {
                 window.location.hash = "#" + elem.id
             }
+            evt.preventDefault();
         });
     });
 
-    function moveToHash(){
+    function moveToHash(evt){
         var hash = window.location.hash.slice(1);
-        clearActive();
-        if (!hash) return
+
+        _each(document.getElementsByClassName('active-box'), function(elem){
+            elem.classList.remove('active-box');
+        });
+
+        if (!hash) return evt.preventDefault();
         var item = document.getElementById(hash);
         if (item) {
             item.classList.add("active-box");
