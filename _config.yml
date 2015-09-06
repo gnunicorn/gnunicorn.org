@@ -1,10 +1,13 @@
 # Site settings
-title: Create.Build.Execute.
+title: "Create.Build.Execute."
 email: ben@create-build-execute.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: > # test
+            Freelance OpenSource Software Architect and Developer
+            I design, build and supervise the building of software (systems).
+            Sometimes for clients, often times on my own, whenever possible as
+            OpenSource. I care about good design in both, the User Experience
+            and backend architecture and infrastructure. And I write about all
+            this stuff.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.create-build-execute.com" # the base hostname & protocol for your site
 twitter_username: sirDonQui
