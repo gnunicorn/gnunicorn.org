@@ -5,15 +5,15 @@ title: "Body of Work"
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="awesomplete.css" />
 
-<style type="text/css" media="screen">
-.project-box.hidden {
-    background-color: pink;
-}
-</style>
-
 <h1>Body of Work</h1>
 
-<input id="search-bow" autocomplete="off" placeholder="filter by" />
+<div class="expander">
+  <a href="javascript:void(0)" id="js-expander-trigger" class="expander-trigger expander-hidden">Filters</a>
+  <div id="js-expander-content" class="expander-content">
+      <input id="search-bow" autocomplete="off" placeholder="filter by" />
+      <ul id="all-filter"></ul>
+  </div>
+</div>
 
 
 <div id="projects">
@@ -106,6 +106,9 @@ title: "Body of Work"
     {% endif %}
 {% endfor %}
 
+
+    tags = tags.filter(function(el,i,a){return i==a.indexOf(el);}).sort()
+
     function _each(lst, fn){
         if (lst.length === 0) return;
         for (var x=0; x<lst.length; x++){
@@ -126,7 +129,6 @@ title: "Body of Work"
     }
 
     function containsAny(target, keys){
-        console.log(target, keys);
         for (var ki=0; ki < keys.length; ki++){
             if(target.indexOf(keys[ki]) > -1){
                 return true;
@@ -135,32 +137,50 @@ title: "Body of Work"
         return false;
     }
 
+    function toggleClassOnClick(elem, cls){
+      return elem.addEventListener('click', function(evt){
+        elem.classList.contains(cls) ? elem.classList.remove(cls) : elem.classList.add(cls)
+        evt.preventDefault();
+        });
+    }
+
 
     var searchInput = document.getElementById("search-bow");
 
 
     function refreshBoxes(evt){
         var keys = searchInput.value.split(", "),
-            boxes = document.getElementsByClassName('project-box');
+            boxes = document.getElementsByClassName('project-box'),
+            selectors = document.getElementById('all-filter').children;
 
         if (keys.length == 1 && keys[0] == ""){
             // reset: nothing found
-            return _each(boxes, function(b){b.classList.remove("hidden")})
+            _each(boxes, function(b){b.classList.remove("hidden")})
+            _each(selectors, function(s){s.classList.remove('active')})
+            return;
         }
 
-        for (var i=0; i < boxes.length; i++){
-            var box = boxes[i];
+        _each(boxes, function(box){
             if (containsAny(getTags(box), keys)){
                 box.classList.remove("hidden")
             } else {
                 box.classList.add("hidden")
             }
-        }
+        });
+
+        _each(selectors, function(selector){
+            if(keys.indexOf(selector.dataset.name) > -1){
+                selector.classList.add("active");
+            } else {
+                selector.classList.remove("active");
+            }
+        });
     }
 
 
 
     var awesomplete = new Awesomplete(searchInput, {
+        list: tags,
         filter: function(text, input) {
             return Awesomplete.FILTER_CONTAINS(text, input.match(/[^,]*$/)[0]);
         },
@@ -169,13 +189,31 @@ title: "Body of Work"
             this.input.value = before + text + ", ";
         },
     });
-    awesomplete.list = tags.filter(function(el,i,a){return i==a.indexOf(el);}).sort()
+
+    var filterItems = [];
+    _each(tags, function(x){
+        filterItems.push('<li data-name="' + x + '">' + x + '</li>');
+    });
 
     searchInput.addEventListener('awesomplete-selectcomplete', refreshBoxes);
 
     searchInput.addEventListener('keyup', function(evt){
         [13, 27].indexOf(evt.keyCode) > -1 && refreshBoxes()
     });
+
+
+    var allF = document.getElementById("all-filter");
+    allF.innerHTML = filterItems.join("\n");
+
+    allF.addEventListener('click', function(evt){
+        var res = evt.target.dataset.name;
+        if (!res) return
+        searchInput.value += res + ", ";
+        refreshBoxes();
+    });
+
+    toggleClassOnClick(document.getElementById('js-expander-trigger'), 'expander-hidden');
+
 
     /// ------------------ DONE FILTER
 
