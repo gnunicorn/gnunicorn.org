@@ -1,22 +1,26 @@
-- name: "OpenSourceBash Website"
+- name: "OpenSourceBash"
   date: "Aug 2015 – today"
   link: "http://www.OpenSourceBash.org"
-  desc: "Event Website for OpenSourceBash"
-  type: "build"
+  pitch: "Bringing together OpenSource Teams and future contributors"
+  desc: "A conference-quality (and style) website to showcase and promot the OpenSourceBash event. Plenty of nice animations, typed-test and pretty fade-ins, complete with schedule, map and ticket registration. Build in an MVC pattern with Jekyll on GH-Pages"
+  image: http://www.opensourcebash.org/img/sprites/logo.png
+  image_css: 'background-size: contain; background-repeat: no-repeat'
   tasks:
     - organiser
     - engineer
+    - designer
   technologies:
     - github pages
+    - jekyll
     - CSS3
     - CSS3/Animation
 - name: "TechTalks"
   date: "June 2015 – today"
   link: http://www.techtalks.xyz/
   github: techtalksHQ
-  desc: "A platform"
+  pitch: "lifting the best videos in tech"
+  desc: "A content-platform for videos in tech, completely plugin-based customasations of <a href='http://www.discourse.org/''>Discourse</a>. Videos are automagically fetched from conferences and other resources, categorised and user can like and comment upon on them. From idea over concepted to implemention done together with <a href='http://www.anoukruhaak.com'>Anouk Ruhaak</a>. "
   image: http://anoukruhaak.com/image/techtalks-1.png
-  type: 'building'
   tasks:
     - founder
     - architect
@@ -25,15 +29,17 @@
   technologies:
     - discourse
     - emberjs
+    - videojs
+    - CSS3
     - CSS3/Animation
 - name: "Antilope"
   date: "May 2015 – June 2015"
-  link: http://www.techtalks.xyz/
   github: hackership/antilope
-  desc: "Reimaging ERP for mid-sized companies, based on an offline-first document store system."
+  pitch: "Reimaging ERP for mid-sized companies, based on an offline-first document store system."
+  desc: "All existing ERPs are complexity overkill for small- and mid-sized organisations. With this offline-first completly frontend-logic website on top of couchdb, we experimented with a different approach of a simplistic document store. As couchdb doesn't allow server-side execution, many microservices in the back allowed for minimal tasks, like document generation and emailing."
   image: /assets/images/projects/antilope.svg
   image_css: 'background-size: contain; background-repeat: no-repeat'
-  type: 'case-study'
+  type: 'case study'
   tasks:
     - founder
     - architect

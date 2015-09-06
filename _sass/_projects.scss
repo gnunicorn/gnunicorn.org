@@ -35,10 +35,6 @@
       display: none;
     }
 
-    .more {
-      display: none;
-    }
-
     .card-image {
       overflow: hidden;
       height: 30vh;
@@ -58,6 +54,10 @@
       h2 {
         font-weight: bold;
         line-height: 1.5em;
+        .more {
+          font-size: 0.85em;
+          font-weight: 300;
+        }
       }
       h3.tasks {
         font-size: 0.8em;
@@ -104,11 +104,14 @@
       }
     }
 
+    &:not(.active-box){
+      .more {
+        display: none
+      }
+    }
+
     &.active-box {
       flex-basis: 50%;
-      .more {
-        display: block
-      }
       .hide-on-more {
         display: none;
       }
