@@ -1,14 +1,15 @@
 ---
 layout: "default"
 title: "Body of Work"
+permalink: "/body-of-work/"
 ---
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
 <link rel="stylesheet" href="awesomplete.css" />
 
 <h1>Body of Work</h1>
 
 <div class="expander">
-  <a href="javascript:void(0)" id="js-expander-trigger" class="expander-trigger expander-hidden">Filters</a>
+  <a href="javascript:void(0)" id="js-expander-trigger" class="expander-trigger expander-hidden">filter</a>
   <div id="js-expander-content" class="expander-content">
       <input id="search-bow" autocomplete="off" placeholder="filter by" />
       <ul id="all-filter"></ul>
@@ -208,8 +209,10 @@ title: "Body of Work"
     allF.addEventListener('click', function(evt){
         var res = evt.target.dataset.name;
         if (!res) return
-        searchInput.value += res + ", ";
-        refreshBoxes();
+        if (searchInput.value.indexOf(res) === -1){
+            searchInput.value += res + ", ";
+            refreshBoxes();
+        }
     });
 
     toggleClassOnClick(document.getElementById('js-expander-trigger'), 'expander-hidden');
@@ -235,7 +238,7 @@ title: "Body of Work"
             elem.classList.remove('active-box');
         });
 
-        if (!hash) return evt.preventDefault();
+        if (!hash) return evt && evt.preventDefault();
         var item = document.getElementById(hash);
         if (item) {
             item.classList.add("active-box");
