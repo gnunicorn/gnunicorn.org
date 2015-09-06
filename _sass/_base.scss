@@ -202,3 +202,18 @@ pre {
         }
     }
 }
+
+@mixin supergradient {
+    background-image: linear-gradient(-55deg, #EA8711, #D96363, #73A6DF, #9085FB, #52CA79);
+}
+
+
+@mixin badge($color: #999) {
+  background-color: $color;
+  border-radius: $badge-font-size * 5;
+  color: darken($color, 60%);
+  display: inline-block;
+  font-size: $badge-font-size;
+  line-height: 1;
+  padding: 0.4em 1.2em;
+}

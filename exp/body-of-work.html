@@ -2,6 +2,7 @@
 layout: "default"
 title: "Body of Work"
 ---
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="awesomplete.css" />
 
 <style type="text/css" media="screen">
@@ -17,7 +18,7 @@ title: "Body of Work"
 
 <div id="projects">
 {% for project in site.data.projects %}
-    <div id="{{project.name | slugify}}" class="project-box"
+    <div id="{{project.name | slugify}}" class="card project-box"
     {% if project.tasks != nil %}
         data-tasks="{{project.tasks | join:','}}"
     {% endif %}
@@ -25,7 +26,37 @@ title: "Body of Work"
         data-technologies="{{project.technologies | join:','}}"
     {% endif %}
     >
-        <h2>{{project.name}}</h2>
+        <div class="card-image" {% if project.image %}style="background-image:url({{project.image}});{%if project.image_css%}{{project.image_css}}{% endif %}" {% endif %}></div>
+        <div class="card-header">
+          <h2>{{project.name}}</h2>
+          <div class="more">
+            <div class="links">
+                {% if project.website %}
+                    <a href="{{project.website}}" target="_blank"><i class="fa fa-external-link fa-2x"></i></a>
+                {% endif %}
+                {% if project.github %}
+                    <a href="https://www.github.com/{{project.github}}" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                {% endif %}
+            </div>
+            {% if project.tasks %}
+                <h3 class="tasks">{{project.tasks|array_to_sentence_string }}</h3>
+            {% endif %}
+          </div>
+        </div>
+        <div class="card-copy">
+          <p>{{project.pitch}}
+            <a href="#{{project.name | slugify}}" class="hide-on-more">read more</a>
+          </p>
+
+          <div class="more">
+              <p>{{project.desc}}</p>
+              <p class="badges">
+                {% for task in project.technologies %}
+                    <span class="task-badge">{{task}}</span>
+                {% endfor %}
+              </p>
+            </div>
+        </div>
     </div>
 {% endfor %}
 </div>
@@ -44,6 +75,13 @@ title: "Body of Work"
         tags = tags.concat({{project.technologies | jsonify}})
     {% endif %}
 {% endfor %}
+
+    function _each(lst, fn){
+        if (lst.length === 0) return;
+        for (var x=0; x<lst.length; x++){
+            fn(lst[x], x, lst);
+        }
+    }
 
     function getTags(obj) {
         var keys = ["tasks", "technologies"],
@@ -67,8 +105,32 @@ title: "Body of Work"
         return false;
     }
 
-    var input = document.getElementById("search-bow");
-    var awesomplete = new Awesomplete(input, {
+
+    var searchInput = document.getElementById("search-bow");
+
+
+    function refreshBoxes(evt){
+        var keys = searchInput.value.split(", "),
+            boxes = document.getElementsByClassName('project-box');
+
+        if (keys.length == 1 && keys[0] == ""){
+            // reset: nothing found
+            return _each(boxes, function(b){b.classList.remove("hidden")})
+        }
+
+        for (var i=0; i < boxes.length; i++){
+            var box = boxes[i];
+            if (containsAny(getTags(box), keys)){
+                box.classList.remove("hidden")
+            } else {
+                box.classList.add("hidden")
+            }
+        }
+    }
+
+
+
+    var awesomplete = new Awesomplete(searchInput, {
         filter: function(text, input) {
             return Awesomplete.FILTER_CONTAINS(text, input.match(/[^,]*$/)[0]);
         },
@@ -79,18 +141,29 @@ title: "Body of Work"
     });
     awesomplete.list = tags.filter(function(el,i,a){return i==a.indexOf(el);}).sort()
 
-    input.addEventListener('awesomplete-selectcomplete', function(evt){
-        var keys = evt.target.value.split(", "),
-            boxes = document.getElementsByClassName('project-box');
+    searchInput.addEventListener('awesomplete-selectcomplete', refreshBoxes);
 
-        for (var i=0; i < boxes.length; i++){
-            var box = boxes[i];
-            if (containsAny(getTags(box), keys)){
-                box.classList.remove("hidden")
+    searchInput.addEventListener('keyup', function(evt){
+        [13, 27].indexOf(evt.keyCode) > -1 && refreshBoxes()
+    });
+
+    /// ------------------ DONE FILTER
+
+    function clearActive(){
+        _each(document.getElementsByClassName('active-box'), function(elem){
+            elem.classList.remove('active-box');
+        })
+    }
+
+    _each(document.getElementsByClassName('project-box'), function(elem){
+        elem.addEventListener('click', function(){
+            if (elem.classList.contains("active-box")){
+                elem.classList.remove("active-box");
             } else {
-                box.classList.add("hidden")
+                clearActive();
+                elem.classList.add("active-box");
             }
-        }
+        });
     });
 })();
 </script>

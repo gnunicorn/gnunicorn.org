@@ -1,19 +1,46 @@
-- name: "OpenSourceBash"
+- name: "OpenSourceBash Website"
+  date: "Aug 2015 – today"
   link: "http://www.OpenSourceBash.org"
-  desc: "OSB"
+  desc: "Event Website for OpenSourceBash"
+  type: "build"
   tasks:
-    - dev
     - organiser
-- name: "TechTalks.xyz"
+    - engineer
+  technologies:
+    - github pages
+    - CSS3
+    - CSS3/Animation
+- name: "TechTalks"
+  date: "June 2015 – today"
   link: http://www.techtalks.xyz/
   github: techtalksHQ
   desc: "A platform"
+  image: http://anoukruhaak.com/image/techtalks-1.png
+  type: 'building'
   tasks:
-    - dev
     - founder
-    - designer
     - architect
+    - designer
+    - engineer
   technologies:
     - discourse
     - emberjs
-    - css
+    - CSS3/Animation
+- name: "Antilope"
+  date: "May 2015 – June 2015"
+  link: http://www.techtalks.xyz/
+  github: hackership/antilope
+  desc: "Reimaging ERP for mid-sized companies, based on an offline-first document store system."
+  image: /assets/images/projects/antilope.svg
+  image_css: 'background-size: contain; background-repeat: no-repeat'
+  type: 'case-study'
+  tasks:
+    - founder
+    - architect
+    - engineer
+  technologies:
+    - reactjs
+    - docker
+    - couchdb
+    - pouchdb
+    - microservices
