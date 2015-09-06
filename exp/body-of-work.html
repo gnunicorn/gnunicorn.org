@@ -12,9 +12,8 @@ title: "Body of Work"
 
 <h1>Body of Work</h1>
 
-<input id="search-bow" autocomplete="off" placeholder="search" />
+<input id="search-bow" autocomplete="off" placeholder="filter by" />
 
-<div id="res"></div>
 
 <div id="projects">
 {% for project in site.data.projects %}
@@ -34,7 +33,9 @@ title: "Body of Work"
 
 <script src="awesomplete.min.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript" charset="utf-8">
+(function(){
     var tags = [];
+
 {% for project in site.data.projects %}
     {% if project.tasks != nil %}
         tags = tags.concat({{project.tasks | jsonify}})
@@ -43,6 +44,28 @@ title: "Body of Work"
         tags = tags.concat({{project.technologies | jsonify}})
     {% endif %}
 {% endfor %}
+
+    function getTags(obj) {
+        var keys = ["tasks", "technologies"],
+            found = [];
+
+        for (var x=0;x<keys.length;x++){
+            if (obj.dataset[keys[x]]){
+                found = found.concat(obj.dataset[keys[x]].split(','))
+            }
+        }
+        return found;
+    }
+
+    function containsAny(target, keys){
+        console.log(target, keys);
+        for (var ki=0; ki < keys.length; ki++){
+            if(target.indexOf(keys[ki]) > -1){
+                return true;
+            }
+        }
+        return false;
+    }
 
     var input = document.getElementById("search-bow");
     var awesomplete = new Awesomplete(input, {
@@ -61,30 +84,13 @@ title: "Body of Work"
             boxes = document.getElementsByClassName('project-box');
 
         for (var i=0; i < boxes.length; i++){
-            var box = boxes[i],
-                to_check = [],
-                found = false;
-
-            if (box.dataset.tasks)
-                to_check = to_check.concat(box.dataset.tasks.split(","))
-
-            if (box.dataset.technologies)
-                to_check = to_check.concat(box.dataset.technologies.split(","))
-
-            console.log(to_check, keys);
-
-            for (var ki=0; ki < keys.length; ki++){
-                if(to_check.indexOf(keys[ki]) > -1){
-                    found = true;
-                    break
-                }
-            }
-
-            if (found){
+            var box = boxes[i];
+            if (containsAny(getTags(box), keys)){
                 box.classList.remove("hidden")
             } else {
                 box.classList.add("hidden")
             }
         }
     });
+})();
 </script>
