@@ -1,0 +1,54 @@
+.post {
+  .post-header {
+    $base-border-radius: 3px !default;
+    $action-color: #477DCA !default;
+    $large-screen: em(860) !default;
+    $hero-color: white;
+    $gradient-angle: 10deg;
+    // $hero-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png';
+
+    // @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
+    @include supergradient;
+    // background-color: #324766;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 3em;
+    width: 100vw;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 35vw;
+
+    h1 {
+      color: $hero-color;
+      font-weight: 200;
+      font-size: 1.5em;
+      font-weight: 300;
+      margin: 0.5em 0.25em;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background: rgba(99, 99, 99, 0.5);
+      display: block;
+      padding: 10px;
+
+      @include media($large-screen) {
+        font-size: 2.5em;
+      }
+    }
+  }
+
+  .post-content {
+    font-size: 24px;
+    font-weight: 200;
+    text-align: justify;
+  }
+}
+
+.post-list {
+  li img {
+    width: 80%;
+  }
+}

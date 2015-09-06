@@ -27,6 +27,9 @@ $content-width:    1080px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$badge-font-size: 0.75em !default;
+
+
 
 
 // Using media queries with like this:
@@ -52,6 +55,7 @@ $on-laptop:        800px;
         "bourbon/bourbon",
         "base/base",
         "neat/neat",
-        "resume",
+        "posts",
         "projects"
+
 ;
