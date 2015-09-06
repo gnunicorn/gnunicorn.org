@@ -1,14 +1,24 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Create.Build.Execute.
+email: ben@create-build-execute.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://www.create-build-execute.com" # the base hostname & protocol for your site
+twitter_username: sirDonQui
+github_username:  ligthyear
+
+
+timezone: "Europe/Berlin"
+LSI: true
+
+permalink: /blog/:title/
+show_drafts: null
+limit_posts: 0
+future:      false
+unpublished: false
 
 # Build settings
 markdown: kramdown
