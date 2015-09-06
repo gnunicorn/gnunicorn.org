@@ -1,0 +1,60 @@
+.clean {
+
+    min-height: 100vh;
+    .box {
+        background-color: rgba(255, 255, 255, .6);
+        max-width: calc(700px - 30px * 2);
+        margin-bottom: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 30px;
+        border: 1px solid #eee;
+        text-align: center;
+
+        @include transition (all 0.2s ease-in-out);
+        // border: 1px gainsboro solid;
+        box-shadow: 0 2px 4px darken(white, 10%);
+
+        &:after {
+            display: block;
+            height: 10px;
+            @include supergradient;
+        }
+
+        h2 {
+            font-weight: 200;
+        }
+
+        &.main {
+            margin-top: 100px;
+
+            img.avatar {
+                border-radius: 50%;
+                border: 1px white solid;
+                width: 120px;
+                margin-top: -100px;
+            }
+
+            h1 {
+                font-weight: 200;
+                font-size: 32px;
+            }
+
+            h2 {
+                margin-top: -20px;
+                margin-bottom: 20px;
+            }
+
+            ul li {
+                display: inline-block;
+                margin: 5px;
+                &:not(:last-of-type):after {
+                  display: inline-block;
+                  padding-left: 10px;
+                  font-weight: 900;
+                  content: "·";
+                }
+            }
+        }
+    }
+}
