@@ -9,6 +9,22 @@
   }
 }
 
+.ribbon {
+  @include transform(rotate(45deg));
+  background-color: #578FE0;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 0.8em;
+  right: -25px;
+  line-height: 1.5em;
+  padding: 2px 7px;
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  width: 120px;
+}
+
+
 
 
 .expander {
@@ -99,6 +115,7 @@
     cursor: pointer;
     margin: 0 $card-margin $base-spacing $card-margin;
     position: relative;
+    overflow: hidden;
 
     &.hidden {
       display: none;

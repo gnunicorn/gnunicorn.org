@@ -8,6 +8,8 @@ permalink: "/body-of-work/"
 
 <h1>Body of Work</h1>
 
+<p>(latest works first, excludes <a href="/blog">writings</a>)</p>
+
 <div class="expander">
   <a href="javascript:void(0)" id="js-expander-trigger" class="expander-trigger expander-hidden">filter</a>
   <div id="js-expander-content" class="expander-content">
@@ -27,6 +29,12 @@ permalink: "/body-of-work/"
         data-technologies="{{project.technologies | join:','}}"
     {% endif %}
     >
+
+        {% if project.github %}
+            <div class="ribbon">OpenSource</div>
+        {% endif %}
+
+
         <div class="card-image" {% if project.image %}style="background-image:url({{project.image}});{%if project.image_css%}{{project.image_css}}{% endif %}" {% endif %}></div>
         <div class="card-header">
           <h2>{{project.name}}<span class="more">{% if project.type %} {{project.type}},{% endif %} {{project.date}}</span></h2>
@@ -226,8 +234,8 @@ permalink: "/body-of-work/"
                 window.location.hash = '';
             } else {
                 window.location.hash = "#" + elem.id
+                evt.preventDefault();
             }
-            evt.preventDefault();
         });
     });
 

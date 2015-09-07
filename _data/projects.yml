@@ -3,6 +3,7 @@
   link: "http://www.OpenSourceBash.org"
   type: full circle
   pitch: "Bringing together OpenSource Teams and future contributors"
+  github: "OpenTechSchool/opensourcebash.org"
   desc: "A conference-quality (and style) website to showcase and promot the OpenSourceBash event. Plenty of nice animations, typed-test and pretty fade-ins, complete with schedule, map and ticket registration. Build in an MVC pattern with Jekyll on GH-Pages"
   image: /assets/images/projects/opensourcebash.png
   image_css: 'background-size: contain; background-repeat: no-repeat'
@@ -39,6 +40,7 @@
 - name: "Discourse Answers & Points"
   date: "May 2015 – Sept 2015"
   type: "plugin"
+  github: "newrelic/discourse-plugin-points"
   pitch: "A discourse plugin to provide a question-answer-system and award points for good behaviour"
   desc: ""
   tasks:
@@ -90,7 +92,7 @@
 
 # ----- DISCOURSE STUFF
 - name: "Wer Weiss Was"
-  github: werweisswas/
+  # github: werweisswas/
   link: http://www.wer-weiss-was.de/
   date: "April 2014 – June 2015"
   pitch: "Migrating 15yr old wer-weiss-was.de on a [Discourse](http://www.discourse.org) fork with plenty of customizations."
@@ -137,6 +139,7 @@
 - name: Discourse Chat
   type: usability study
   date: Jan – Feb 2015
+  github: theGeoffrey/infrastructure
   image: /assets/images/projects/dc_chat.png
   pitch: "A distribution and mobile-first XMMP-based chat within Discourse"
   desc: "Build as a key service by [theGeoffrey](#thegeoffrey), this highly integrated feature would provide first class (slack-style) chat dedicated for the DC community. While the backend infrastrucutre is setup in a federated fashion (facilitating mongooseIM, based on eJabberd) to allow cross-instance lookup and communication."
