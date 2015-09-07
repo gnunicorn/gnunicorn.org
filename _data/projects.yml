@@ -1,9 +1,10 @@
 - name: "OpenSourceBash"
   date: "Aug 2015 – today"
   link: "http://www.OpenSourceBash.org"
+  type: full circle
   pitch: "Bringing together OpenSource Teams and future contributors"
   desc: "A conference-quality (and style) website to showcase and promot the OpenSourceBash event. Plenty of nice animations, typed-test and pretty fade-ins, complete with schedule, map and ticket registration. Build in an MVC pattern with Jekyll on GH-Pages"
-  image: http://www.opensourcebash.org/img/sprites/logo.png
+  image: /assets/images/projects/opensourcebash.png
   image_css: 'background-size: contain; background-repeat: no-repeat'
   tasks:
     - organiser
@@ -15,10 +16,10 @@
     - CSS3
     - CSS3/Animation
 
-
 - name: "TechTalks"
   date: "June 2015 – today"
   link: http://www.techtalks.xyz/
+  type: full circle
   github: techtalksHQ
   pitch: "lifting the best videos in tech"
   desc: "A content-platform for videos in tech, completely plugin-based customasations of [Discourse](http://www.discourse.org/). Videos are automagically fetched from conferences and other resources, categorised and user can like and comment upon on them. From idea over concepted to implemention done together with <a href='http://www.anoukruhaak.com'>Anouk Ruhaak</a>. "
@@ -34,6 +35,37 @@
     - videojs
     - CSS3
     - CSS3/Animation
+
+- name: "Discourse Answers & Points"
+  date: "May 2015 – Sept 2015"
+  type: "plugin"
+  pitch: "A discourse plugin to provide a question-answer-system and award points for good behaviour"
+  desc: ""
+  tasks:
+   - concept
+   - engineer
+   - frontend
+  technologies:
+   - discourse
+   - rails
+   - emberjs
+
+- name: "Anonymous Reviews"
+  date: "Mar 2015 – July 2015"
+  github: hackership/review-backend
+  pitch: "Ensure an unbiased application review through this process manager"
+  desc: "An internal tool to manage the application pipeline for [Hackership](http://www.hackership.org) and ensure a fair and unbiased process for all applicants."
+  image: /assets/images/projects/reviews-dev.png
+  tasks:
+    - concept
+    - architect
+    - engineer
+  technologies:
+    - reactjs
+    - flux
+    - python
+    - flask
+    - webpack
 
 - name: "Antelope"
   date: "May 2015 – June 2015"
@@ -55,23 +87,6 @@
     - libreoffice
     - docker
     - microservices
-
-- name: "Anonymous Reviews"
-  date: "Mar 2015 – July 2015"
-  github: hackership/review-backend
-  pitch: "Ensure an unbiased application review through this process manager"
-  desc: "An internal tool to manage the application pipeline for [Hackership](http://www.hackership.org) and ensure a fair and unbiased process for all applicants."
-  # image: /assets/images/projects/antilope.svg
-  # image_css: 'background-size: contain; background-repeat: no-repeat'
-  tasks:
-    - concept
-    - architect
-    - engineer
-  technologies:
-    - reactjs
-    - python
-    - flask
-    - webpack
 
 # ----- DISCOURSE STUFF
 - name: "Wer Weiss Was"
@@ -95,10 +110,61 @@
    - elasticsearch
    - kaltura
 
+- name: theGeoffrey
+  github: theGeoffrey/
+  date: "Sept 2014 – Mar 2015"
+  type: "startup"
+  pitch: "external Discourse Service Bot (and Company)"
+  desc: "This case study explored how to setup an external infrastructure to provide services and features (like [chat](#discourse-chat), templates, stripe and forms) to existing discourse instances."
+  tasks:
+   - founder
+   - concept
+   - architect
+   - engineer
+  technologies:
+   - discourse
+   - docker
+   - mongooseIM
+   - erlang
+   - python
+   - twisted
+   - reactjs
+   - flux
+   - strophe
+   - xmpp
+   - couchdb
+
+- name: Discourse Chat
+  type: usability study
+  date: Jan – Feb 2015
+  image: /assets/images/projects/dc_chat.png
+  pitch: "A distribution and mobile-first XMMP-based chat within Discourse"
+  desc: "Build as a key service by [theGeoffrey](#thegeoffrey), this highly integrated feature would provide first class (slack-style) chat dedicated for the DC community. While the backend infrastrucutre is setup in a federated fashion (facilitating mongooseIM, based on eJabberd) to allow cross-instance lookup and communication."
+  tasks:
+   - architect
+   - engineer
+  technologies:
+   - strophe
+   - reactjs
+   - flux
+   - couchdb
+
+- name: Bountylicious
+  type: "startup"
+  image: /assets/images/projects/bounty.png
+  pitch: "Instagram for products – like shoe-fies"
+  desc: "A mobile first social stream, where users post their favorite products, gain points for sharing and being shared and can exchange those into coupons with famous brands."
+  tasks:
+   - founder
+   - architect
+   - project manager
+  technologies:
+   - rails
+   - postgresql
 
 - name: "Tagger"
   github: werweisswas/discourse-plugin-tagger
-  # link: 
+  # link:
   date: "April - May 2014"
   pitch: "Extending Discourse to provide Tags via a plugin"
   desc: "Extend Discourse to provide tags through the plugin system. Including extensive changes to the composer to allow for autocomplete support for existing tags."
@@ -113,7 +179,7 @@
    - rails
 
 - name: "HAQL - injector"
-  github: discourse/discourse/compare/master...ligthyear:handlebars-injector
+  github: "discourse/discourse/compare/master...ligthyear:handlebars-injector"
   link: https://meta.discourse.org/t/injecting-templates-into-templates-through-plugins-introducing-haql/14694
   date: "April 2014"
   pitch: "**H**andlebars **A**bstract Syntax Tree **Q**uery **L**anguage and injector for discourse"
@@ -142,6 +208,25 @@
    - discourse
    - emberjs
 
+- name: "It'se.me"
+  date: April 2014
+  github: itseme
+  type: usability study
+  pitch: "Encrypted Authentication Discovery Service and protocol (for XMPP)"
+  desc: "The itseme API allowes a user, to share their contacts safely with other users. By hashing the contact information before even sending them to the server, the service only knows about connections between encrypted entities. To claim an entity as your own, the user has to authenticate to the service. Currently supported are SMS, XMPP and email. Reach the entire [white paper here](https://github.com/itseme/mario/blob/gh-pages/docs/itseme-docs.pdf)"
+  image: /assets/images/projects/itseme.png
+  tasks:
+   - founder
+   - architect
+   - engineer
+  technologies:
+   - flask
+   - couchdb
+   - react
+   - browserify
+   - celery
+   - xmpp
+
 - name: "Discourse Checkbox"
   github: ligthyear/discourse-plugin-checklist
   link: https://meta.discourse.org/t/checklist-a-simple-markdownified-checkbox-plugin-with-inline-updating/13428
@@ -157,3 +242,74 @@
    - discourse
    - emberjs
    - markdown
+
+- name: Gapbird
+  date: 2012-2013
+  type: "relaunch"
+  pitch: "Kickstarter platform for Hollywood movies"
+  desc: ""
+  image: /assets/images/projects/gapbird.jpg
+  tasks:
+   - architect
+   - engineer
+  technologies:
+   - django
+   - css
+
+- name: Crowdbet
+  date: "2011-2013"
+  type: startup
+  link: https://www.youtube.com/watch?v=WVS9EbeJTN4
+  image: /assets/images/projects/cbet.png
+  pitch: "The sports bet reimagined: social, trade-oriented, and mobile-first"
+  desc: "A web- and mobile platform to make the sports bet a totally new game: a social one. Whenever a user bets, the market changes, and the value of your bet does so, too. Crowdbet makes sportsbet a fun, social market-driven entertainment proposal."
+  tasks:
+   - founder
+   - architect
+   - engineer
+  technologies:
+   - python
+   - twisted
+   - nodejs
+   - marketmaker
+
+- name: Socialism
+  date: "2010-2011"
+  type: "in-house startup"
+  pitch: "your social dashboard (for small- & midsized organisations)"
+  image: /assets/images/projects/socialism-mockup.png
+  desc: "A social media dashboard for all the needs of an small to midsized organisation. With a strong focus on real-time communication and interaction with followers and friends and a distributed team of organsation speakers."
+  tasks:
+   - founder
+   - concept
+   - engineer
+  technologies:
+   - angularjs
+   - python
+   - twisted
+
+# - name: HappyYuppie
+#   type: "relaunch"
+#   date: "2011"
+#   pitch: "Stock Trading forecasts community"
+#   desc: ""
+
+# - name: Prozentor Forex Tradingtools
+#   date: "2010"
+#   pitch: "Platform to "
+#   desc: ""
+
+- name: Moovida Media Center
+  date: "2007-2009"
+  type: "startup"
+  link: http://lifehacker.com/5288290/moovida-media-center-is-a-simplified-big-screen-player/
+  image: /assets/images/projects/elisa.png
+  pitch: "an opensource AppleTV"
+  desc: "– formerly known as 'elisa'. <br> Was an attempt to build an big-screen online multimedia player setup box, like the AppleTV, totally open source and based on the best multimedia frameworks there is: gstreamer (now powers Android!). Unfortunatly the market for this kind of device has always been limited."
+  tasks:
+   - engineer
+  technologies:
+   - python
+   - gstreamer
+   - gobject
+   - dbus
