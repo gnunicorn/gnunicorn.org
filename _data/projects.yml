@@ -246,6 +246,24 @@
    - emberjs
    - markdown
 
+- name: "Jerri"
+  github: /jerrico
+  image: /assets/images/projects/jerri.png
+  image_css: 'background-size: contain; background-repeat: no-repeat'
+  pitch: "In-App-User-Profiles and (consumption based) Permissions as a Service"
+  desc: "A simple drop-in-library to provide device-based authentification and profile-based permission management to your app and service, inspired by [Passwords are so 2007](/blog/passwords-are-so-2007/). Define groups of consumption based permission levels in the backend, while in your code just limit it to an `if jerri.can('upload_video')` permission check. Allow easily changing of user profiles by 'upgrading'."
+  type: "startup"
+  tasks:
+   - founder
+   - architect
+   - engineer
+  technologies:
+   - python
+   - flask
+   - appengine
+   - javascript
+   - angular
+
 - name: Gapbird
   date: 2012-2013
   type: "relaunch"
