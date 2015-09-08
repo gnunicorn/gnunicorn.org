@@ -76,6 +76,11 @@ I served my civil service as a teacher at an elementary school for mentally disa
 
 ## Education
 
+### <span class="time">2013</span>Cocktail Barmixer Certificate (IHK)
+
+#### [Barschule Berlin](http://cms.barschuleberlin.de/), Berlin
+
+
 ### <span class="time">2006</span>Abitur
 
 #### [Felix-Fechbach-Gesamtschule](http://www.ffgleo.de/), Leopoldshöhe
