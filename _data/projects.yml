@@ -71,7 +71,7 @@
 
 - name: "Antelope"
   date: "May 2015 – June 2015"
-  github: hackership/antilope
+  github: hackership/antelope
   pitch: "Reimaging ERP for mid-sized companies, based on an offline-first document store system."
   desc: "All existing ERPs are complexity overkill for small- and mid-sized organisations. With this offline-first completly frontend-logic website on top of couchdb, we experimented with a different approach of a simplistic document store. As couchdb doesn't allow server-side execution, many microservices in the back allowed for minimal tasks, like document generation and emailing."
   image: /assets/images/projects/antilope.svg
