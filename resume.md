@@ -12,20 +12,13 @@ This is an incomplete list of my professional work experience. For a more compre
 
 ## Experience
 
-### <span class="time">2013 – today </span>[Hackership](http://www.hackership.org)
-
-#### Founder, Lead-Coach
-
-Born out of the necessity for a more intense programme in OpenTechSchool, Hackership is a 9-week, self-paced learning retreat for developers. It is organised as a non-profit social enterprise. Next to providing education, it is our goal to help foster a more diverse and welcoming tech culture.
-
-As part of the core team, I help formulate our strategy and execute our long-term visions, during batches I lead the coaches and coach learners coach our learners and oversee internal processes and infrastructure. Within Hackership we've built the [review app](/body-of-work/#anonymous-reviews) and [antelope](/body-of-work/#antelope).
 
 ### <span class="time">2012 – today </span>Freelance Software Engineer and Architect
 
 #### [wwww.create-build-execute.com](/)
 
 As a freelancer, I have worked on a number of projects. Here is a just a small selection of companies, I've worked for:
-
+ - **GlückGames**, 2015: Mobile HTML-Games Frontend Architecture and Development
  - **NewRelic**, 2015: [Answers & Points](/body-of-work/#discourse-answers-points) plugin for Discourse
  - **WerWeissWas**, 2014-2015: [Question-Community migration and relaunch](/body-of-work/#wer-weiss-was)
  - **Thermondo**, 2014: Internal process management tool
@@ -40,6 +33,14 @@ Founding Core Member of the OpenTechSchool Initiative. A volunteer run non-profi
 
 Chairperson of Board of Directors from 2013-2015.
 
+
+### <span class="time">2013 – 2015 </span>[Hackership](http://www.hackership.org)
+
+#### Founder, Lead-Coach
+
+Born out of the necessity for a more intense programme in OpenTechSchool, Hackership is a 9-week, self-paced learning retreat for developers. It is organised as a non-profit social enterprise. Next to providing education, it is our goal to help foster a more diverse and welcoming tech culture.
+
+As part of the core team, I help formulate our strategy and execute our long-term visions, during batches I lead the coaches and coach learners coach our learners and oversee internal processes and infrastructure. Within Hackership we've built the [review app](/body-of-work/#anonymous-reviews) and [antelope](/body-of-work/#antelope).
 
 ### <span class="time">2012 - 2013 </span>[Crowdbet](http://www.crowdbet.com)
 
