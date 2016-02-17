@@ -1,3 +1,23 @@
+- name: "Are We Web Yet"
+  date: "Aug 2015 – today"
+  link: "http://www.arewewebyet.org"
+  type: full circle
+  pitch: "Answering the question is the Rust Ecosystem good enough to do web development yet"
+  github: "BashyHQ/arewewebyet"
+  desc: "A website giving deep insights on the state of the rust ecosystem for web-development, allowing the viewer quickly to judge whether they can built their next project in rust and what is still missing in their stack."
+  image: /assets/images/projects/awwy.png
+  image_css: 'background-size: contain; background-repeat: no-repeat'
+  tasks:
+    - curator
+    - engineer
+    - designer
+  technologies:
+    - jekyll
+    - github pages
+    - crates.io
+    - CSS3
+    - bash
+
 - name: "OpenSourceBash"
   date: "Aug 2015 – today"
   link: "http://www.OpenSourceBash.org"
