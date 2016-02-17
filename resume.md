@@ -18,6 +18,7 @@ This is an incomplete list of my professional work experience. For a more compre
 #### [wwww.create-build-execute.com](/)
 
 As a freelancer, I have worked on a number of projects. Here is a just a small selection of companies, I've worked for:
+
  - **GlückGames**, 2015: Mobile HTML-Games Frontend Architecture and Development
  - **NewRelic**, 2015: [Answers & Points](/body-of-work/#discourse-answers-points) plugin for Discourse
  - **WerWeissWas**, 2014-2015: [Question-Community migration and relaunch](/body-of-work/#wer-weiss-was)
