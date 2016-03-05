@@ -43,7 +43,9 @@ Founder and Director of The Bashy Initiative – taking care of people in open 
 
 As Founder and Director I transferred some of my personal projects over to the organisation, am actively building and creating others as well as spread the word about the Initiative.
 
-### <span class="time">2013 – 2015 </span>[Hackership](http://www.hackership.org)
+· [AreWeWebYet.org](http://www.AreWeWebYet.org) · [Clippy-Service](http://clippy.bashy.io) · [Launchpage](http://launchpage.bashy.io)
+
+### <span class="time">2013 – 2016 </span>[Hackership](http://www.hackership.org)
 
 #### Founder, Lead-Coach
 
