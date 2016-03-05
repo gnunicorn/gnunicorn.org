@@ -1,5 +1,24 @@
+- name: "Clippy Service"
+  date: "Feb 2016 – today"
+  link: "http://clippy.bashy.io"
+  type: full circle
+  pitch: "Linting for your Rust Project as a Web-Service"
+  github: "ligthyear/clippy-service"
+  desc: "A webservice checking out a Github-Rust project and run the clippy-linter against it, then publishing the result as a neat Repo-Badge."
+  image: /assets/images/projects/clippy.png
+  image_css: 'background-size: contain; background-repeat: no-repeat'
+  tasks:
+    - curator
+    - engineer
+    - designer
+  technologies:
+    - rust
+    - iron
+    - github
+    - docker
+
 - name: "Are We Web Yet"
-  date: "Aug 2015 – today"
+  date: "Jan 2016 – today"
   link: "http://www.arewewebyet.org"
   type: full circle
   pitch: "Answering the question is the Rust Ecosystem good enough to do web development yet"
