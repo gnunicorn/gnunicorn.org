@@ -8,7 +8,18 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+.no-print {
+  @media print {
+    display: none;
+  }
+}
 
+
+.print-only {
+  @media screen {
+    display: none;
+  }
+}
 
 /**
  * Basic styling
@@ -21,6 +32,11 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+
+    @media print {
+      font-family: serif;
+      font-size: 11px;
+    }
 }
 
 
@@ -167,6 +183,12 @@ pre {
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
+
+
+    @media print {
+      max-width: 100%;
+      width: 100%;
+    }
 }
 
 
@@ -183,7 +205,19 @@ pre {
     }
 }
 
+img.avatar {
+  height: 130px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  float: left;
+  margin: 10px;
+}
 
+img.socialicon {
+  height: 1.25em;
+  display: inline-block;
+  vertical-align: middle;
+}
 
 /**
  * Icons

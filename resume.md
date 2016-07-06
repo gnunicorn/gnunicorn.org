@@ -5,8 +5,33 @@ permalink: /resume/
 ---
 
 
+<div class="no-print" markdown="1">
 
 This is an incomplete list of my professional work experience. For a more comprehensive list of projects I have worked on, see [my body of work](/body-of-work).
+
+</div>
+
+
+<div class="print-only" markdown="1" style="clear:both;">
+
+  <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAK6AAAAJDk2ZWE1N2EzLWQwMDItNDU1My04NGVkLTliMmRjZjhlZjZjMw.png" class="avatar" />
+
+  <div markdown="1">
+
+# **Benjamin Kampmann**
+
+Freelancer OpenSource Software Developer and Architect
+
+Berlin, Amsterdam
+
+<img src="http://svgporn.com/logos/google-gmail.svg" class="socialicon"> ben@create-build-execute.com
+<img src="http://svgporn.com/logos/twitter.svg" class="socialicon"/> @SirDonQui
+<img src="http://svgporn.com/logos/github-icon.svg" class="socialicon"/> ligthyear
+
+  </div>
+
+</div>
+
 
 <div class="resume" markdown="1">
 

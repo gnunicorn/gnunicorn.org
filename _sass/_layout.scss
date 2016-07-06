@@ -8,6 +8,9 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    @media print {
+      display: none;
+    }
 }
 
 .site-title {
@@ -93,6 +96,10 @@
  */
 
 footer {
+
+    @media print {
+      display: none;
+    }
 
     a,
     a:visited {
