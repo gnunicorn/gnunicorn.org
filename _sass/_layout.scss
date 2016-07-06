@@ -118,6 +118,10 @@ footer {
       li {
           display: inline-block;
           margin-left: 10px;
+          svg {
+            width: 2em;
+            height: 2em;
+          }
         }
     }
 }
