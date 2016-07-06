@@ -46,6 +46,13 @@ $badge-font-size: 0.75em !default;
 }
 
 
+@media print {
+  body {
+    font-size: 14px;
+  }
+}
+
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
