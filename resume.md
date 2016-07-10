@@ -20,7 +20,7 @@ This is an incomplete list of my professional work experience. For a more compre
 
 # **Benjamin Kampmann**
 
-Freelancer OpenSource Software Architect, Engineer and Manager
+Freelancer OpenSource Software Architect, Engineer & Manager
 
 Berlin, Amsterdam
 
@@ -56,11 +56,11 @@ I joined this communication and messenger startup of Germanys biggest ISP  as pa
 
 ### <span class="time">2012 – today </span>[OpenTechSchool](http://www.opentechschool.org/) e.V.
 
-#### Founder, Chairperson (2013-2015), Organiser
+#### Founder, Chairperson (2013 - 2015), Organiser
 
 Founding Core Member of the OpenTechSchool Initiative. A volunteer run non-profit, organising learning events and workshops in coding and tech. As part of the local Team in Berlin, I am helping organising workshops and other events there, on the global level I am overseeing the technical infrastructure and operations. As part of team blueprint I am working on the bigger picture and the more long-term vision and strategies of the organisation.
 
-#### Chairperson of Board of Directors from 2013-2015.
+#### Chairperson of Board of Directors from 2013 - 2015.
 
 
 ### <span class="time">2016 – today </span>[The Bashy Initiative](http://www.bashy.io/)
@@ -91,7 +91,7 @@ Joining this growing casual casino games startup for a few months to architect t
 
 #### · HTML5 · ReactJS ·  ES2015 (Babel & Webpack) ·
 
-### <span class="time">April - Nov 2015 </span>[NewRelic](https://newrelic.com/
+### <span class="time">April - Nov 2015 </span>[NewRelic](https://newrelic.com/)
 
 #### Architect and Engineer, Freelance
 
