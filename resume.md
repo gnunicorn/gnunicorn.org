@@ -20,7 +20,7 @@ This is an incomplete list of my professional work experience. For a more compre
 
 # **Benjamin Kampmann**
 
-Freelancer OpenSource Software Developer and Architect
+Freelancer OpenSource Software Architect, Engineer and Manager
 
 Berlin, Amsterdam
 
@@ -45,7 +45,7 @@ Berlin, Amsterdam
 As a freelancer, I have worked on a number of projects. Some are listed here, but you can see a more complete [body of work here](/body-of-work/).
 
 
-### <span class="time">2016 – today </span>[IMMMR GmbH](http://www.immmr.com/)
+### <span class="time">2016 – today </span>[IMMMR](http://www.immmr.com/)
 
 #### Lead Engineer Core SDK, Freelance
 
@@ -81,25 +81,25 @@ Born out of the necessity for a more intense programme in OpenTechSchool, Hacker
 
 As part of the core team, I help formulate our strategy and execute our long-term visions, during batches I lead the coaches and coach learners coach our learners and oversee internal processes and infrastructure. Within Hackership we've built the [review app](/body-of-work/#anonymous-reviews) and [antelope](/body-of-work/#antelope).
 
-#### · Mentor · Developer · Founder ·
+#### · Mentor · Engineer · Founder ·
 
 ### <span class="time">2015 - 2016 </span>[GlückGames](https://www.gluckgames.com/)
 
-#### Lead Frontend Developer, Freelance
+#### Lead Frontend Engineer, Freelance
 
 Joining this growing casual casino games startup for a few months to architect the first iteration of their in-house-developed HTML5 games with realistic physics engines, high class animations and quick, react-js-based UI updates.
 
 #### · HTML5 · ReactJS ·  ES2015 (Babel & Webpack) ·
 
-### <span class="time">April - Nov 2015 </span>NewRelic Inc.
+### <span class="time">April - Nov 2015 </span>[NewRelic](https://newrelic.com/
 
-#### Lead Engineer, Freelance
+#### Architect and Engineer, Freelance
 
 For their externally used Discourse-based support forum NewRelic approach me to develop an [Answers & Points](/body-of-work/#discourse-answers-points) plugin for Discourse. Over a the time frame of half a year I lead the specification, design and development of that plugin with the company as well as other subcontractors.
 
 #### · Discourse (Rails & EmberJS) · Postgres ·
 
-### <span class="time">2014 - 2015 </span>WerWeissWas GmbH
+### <span class="time">2014 - 2015 </span>[WerWeissWas](http://www.wer-weiss-was.de/)
 
 #### Chief Architect and Engineer, Freelance
 
@@ -107,7 +107,7 @@ Over the course of one and a half years, I lead the rewrite of Germanys second b
 
 #### · Discourse (Rails & EmberJS) · Postgres ·
 
-### <span class="time"> April - August 2014 </span>Thermondo GmbH
+### <span class="time"> April - August 2014 </span>[Thermondo](https://www.thermondo.de/)
 
 #### Backend Engineer, Freelance
 
@@ -123,6 +123,14 @@ As the technical co-founder my primary responsiblity was to build and run the [c
 
 #### · Flask · SocketIO · Postgres · Angular ·
 
+### <span class="time">2012 - 2013 </span>Gapbird
+
+#### Software Architect and Engineer, Freelance
+
+Designed and implemented a full-featured crowdfunding platform for hollywood movies and high end series. As the key developer I was responsible for the entire Web-Platform from the Django backend to Javascript frontend, as well as managing the project from specifications over design to implementation.
+
+#### · Django · Postgres · jQuery ·
+
 ### <span class="time">2011 - 2013 </span>[Club der Beschleuniger](http://www.dieBeschleuniger.de)
 
 
@@ -130,15 +138,7 @@ As the technical co-founder my primary responsiblity was to build and run the [c
 
 I cofounded Club der Beschleuniger, a collective (Genossenschaft) of software developers, who help startup set up and execute their business ideas by providing technical knowledge, expertise and hands-on coding.
 
-#### · Founder · Project Manager · Developer ·
-
-### <span class="time">2012 - 2013 </span>Gapbird GmbH
-
-#### Software Architect and Engineer, Freelance
-
-Designed and implemented a full-featured crowdfunding platform for hollywood movies and high end series. As the key developer I was responsible for the entire Web-Platform from the Django backend to Javascript frontend, as well as managing the project from specifications over design to implementation.
-
-#### · Django · Postgres · jQuery ·
+#### · Founder · Project Manager · Engineer ·
 
 
 ### <span class="time">2009 - 2012 </span>[Prozentor](http://www.prozentor.de)
