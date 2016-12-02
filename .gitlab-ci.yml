@@ -2,6 +2,8 @@ image: ruby:2.3
 
 pages:
   script:
+    # we need node to execute this
+  - apt-get update -qq && apt-get install -qq nodejs
   - bundle install --path vendor
   - bundle exec jekyll build -d public
   artifacts:
