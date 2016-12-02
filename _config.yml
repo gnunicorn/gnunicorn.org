@@ -1,6 +1,6 @@
 # Site settings
-title: "Create.Build.Execute."
-email: ben@create-build-execute.com
+title: "GNUnicorn"
+email: ben@gnunicorn.org
 description: > # test
             Freelance OpenSource Software Architect and Developer
             I design, build and supervise the building of software (systems).
@@ -9,9 +9,9 @@ description: > # test
             and backend architecture and infrastructure. And I write about all
             this stuff.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.create-build-execute.com" # the base hostname & protocol for your site
-twitter_username: sirDonQui
-github_username:  ligthyear
+url: "http://www.gnunicorn.org" # the base hostname & protocol for your site
+twitter_username: gnunicornBen
+github_username:  gnunicorn
 
 
 timezone: "Europe/Berlin"
@@ -25,6 +25,10 @@ unpublished: false
 
 # Build settings
 markdown: kramdown
+
+exclude:
+  - .bundle
+  - vendor
 
 gems:
 - jekyll-redirect-from
