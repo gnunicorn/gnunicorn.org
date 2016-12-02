@@ -5,7 +5,7 @@ pages:
     # we need node to execute this
   - apt-get update -qq && apt-get install -qq nodejs
   - bundle install --path vendor
-  - bundle exec jekyll build -d public
+  - LANG=en_US.UTF-8 bundle exec jekyll build -d public
   artifacts:
     paths:
     - public
