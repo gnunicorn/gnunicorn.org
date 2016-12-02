@@ -39,7 +39,7 @@
         }
         li:before{
           display: inline-block;
-          content: "·";
+          content: '\b7\a0';
           padding: 0 0.2em;
         }
     }
