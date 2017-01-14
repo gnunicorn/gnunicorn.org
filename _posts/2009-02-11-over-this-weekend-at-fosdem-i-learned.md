@@ -5,6 +5,7 @@ date: '2009-02-11T00:00:00.000Z'
 category:
 - Meta
 - News
+- personal
 redirects:
 - /t/26
 - /t/26/

@@ -4,6 +4,7 @@ title: Does this mean we can&rsquo;t pay online anymore?
 date: '2011-11-23T00:00:00.000Z'
 category:
 - Tips & Tricks
+- business
 redirects:
 - /t/36
 - /t/36/

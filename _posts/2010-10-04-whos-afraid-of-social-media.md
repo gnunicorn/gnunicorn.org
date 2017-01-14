@@ -4,6 +4,7 @@ title: Who&rsquo;s afraid of Social Media?
 date: '2010-10-04T00:00:00.000Z'
 category:
 - Thoughts
+- business
 redirects:
 - /t/30
 - /t/30/

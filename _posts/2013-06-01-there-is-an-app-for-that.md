@@ -4,6 +4,8 @@ title: There is an app for that
 date: '2013-06-01T00:00:00.000Z'
 category:
 - Thoughts
+- business
+- tech
 redirects:
 - /t/89
 - /t/89/

@@ -4,6 +4,9 @@ title: Here is why I won&rsquo;t bother reading your job posting
 date: '2013-02-21T00:00:00.000Z'
 category:
 - Thoughts
+- tech
+- community
+- business
 redirects:
 - /t/76
 - /t/76/

@@ -4,6 +4,7 @@ title: Free to pay
 date: '2013-05-08T00:00:00.000Z'
 category:
 - Tips & Tricks
+- business
 redirects:
 - /t/86
 - /t/86/

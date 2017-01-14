@@ -4,6 +4,7 @@ title: It&rsquo;s time for a change
 date: '2012-03-09T00:00:00.000Z'
 category:
 - Thoughts
+- tech
 redirects:
 - /t/42
 - /t/42/

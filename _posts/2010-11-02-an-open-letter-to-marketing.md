@@ -4,6 +4,7 @@ title: An open letter to Marketing
 date: '2010-11-02T00:00:00.000Z'
 category:
 - Thoughts
+- business
 redirects:
 - /t/32
 - /t/32/

@@ -4,6 +4,7 @@ title: When they say passion they mean pain
 date: '2012-07-13T00:00:00.000Z'
 category:
 - Tips & Tricks
+- business
 redirects:
 - /t/54
 - /t/54/

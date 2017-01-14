@@ -4,6 +4,7 @@ title: Germany, home of the cheap
 date: '2013-04-05T00:00:00.000Z'
 category:
 - Thoughts
+- business
 redirects:
 - /t/82
 - /t/82/

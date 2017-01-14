@@ -1,0 +1,66 @@
+---
+layout: page
+title: Latest writings
+permalink: /writings/
+redirect_from:
+  - /blog/
+---
+
+<div>
+<ul class="post-list-short">
+  <li><h2>Tech</h2>
+    <ul>
+      {% for post in site.categories.tech limit:6 %}
+        <li>
+          <h3>
+            <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+        </li>
+      {% endfor %}
+      <a href="/writings/tech/">more...</a>
+    </ul>
+  </li>
+
+  <li><h2>Community</h2>
+    <ul>
+      {% for post in site.categories.community limit:6 %}
+        <li>
+          <h3>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+        </li>
+      {% endfor %}
+      <a href="/writings/community/">more...</a>
+    </ul>
+  </li>
+
+  <li><h2>Entrepreneuring</h2>
+    <ul>
+      {% for post in site.categories.business limit:6 %}
+        <li>
+          <h3>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+        </li>
+      {% endfor %}
+      <a href="/writings/entrepreneuring/">more...</a>
+    </ul>
+  </li>
+
+  <li><h2>Personal</h2>
+    <ul>
+      {% for post in site.categories.personal limit:6 %}
+        <li>
+          <h3>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+        </li>
+      {% endfor %}
+      <a href="/writings/personal/">more...</a>
+    </ul>
+  </li>
+</ul>
+
+  <p class="rss-subscribe"><a href="/writings/all/">See all</a> or subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

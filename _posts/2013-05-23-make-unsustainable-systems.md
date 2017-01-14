@@ -5,6 +5,7 @@ date: '2013-05-23T00:00:00.000Z'
 category:
 - Tips & Tricks
 - Best Practices
+- community
 redirects:
 - /t/88
 - /t/88/

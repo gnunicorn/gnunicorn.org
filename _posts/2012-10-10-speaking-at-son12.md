@@ -5,6 +5,7 @@ date: '2012-10-10T00:00:00.000Z'
 category:
 - Meta
 - News
+- personal
 image: /assets/posts/speaking-at-son12-2396e87bbbb4af2fa51f6571cde215006edf5149a5.jpg
 redirects:
 - /t/62

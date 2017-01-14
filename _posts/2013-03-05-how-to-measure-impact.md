@@ -4,6 +4,7 @@ title: How to measure impact
 date: '2013-03-05T00:00:00.000Z'
 category:
 - Thoughts
+- community
 redirects:
 - /t/78
 - /t/78/

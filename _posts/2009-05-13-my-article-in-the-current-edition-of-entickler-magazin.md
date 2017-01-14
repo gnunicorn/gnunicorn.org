@@ -1,10 +1,11 @@
 ---
 layout: post
-title: My article in the current edition of Entickler Magazin
+title: My article in the current edition of Entwickler Magazin
 date: '2009-05-13T00:00:00.000Z'
 category:
 - Meta
 - News
+- personal
 image: /assets/posts/my-article-in-the-current-edition-of-entickler-magazin16bcee6fe01d84e1564898af54a0c679b7a5ff6ce0_308x500.jpg
 redirects:
 - /t/28

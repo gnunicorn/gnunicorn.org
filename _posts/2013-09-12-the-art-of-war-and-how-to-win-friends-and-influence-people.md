@@ -4,6 +4,7 @@ title: The Art of War and How to Win friends and influence people
 date: '2013-09-12T00:00:00.000Z'
 category:
 - Tips & Tricks
+- business
 image: /assets/posts/the-art-of-war-and-how-to-win-friends-and-influence-peopleq
 redirects:
 - /t/101

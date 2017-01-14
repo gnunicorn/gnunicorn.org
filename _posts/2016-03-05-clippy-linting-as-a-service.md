@@ -4,7 +4,8 @@ layout: post
 title: "Clippy: Linting as a Service"
 date: 2016-03-05
 image: http://www.bashy.io/assets/projects/clippy.png
-
+categories:
+  - tech
 tags:
   - rust
   - clippy

@@ -4,6 +4,7 @@ title: 'WhatsApp exodus: An irrational consequence of the NSA Scandal'
 date: '2014-02-24T00:00:00.000Z'
 category:
 - Thoughts
+- business
 image: /assets/posts/whatsapp-exodus-an-irrational-consequence-of-the-nsa-scandal-367443099ab276fcd28e1f481f05e88ab635dfe144.jpg
 redirects:
 - /t/111

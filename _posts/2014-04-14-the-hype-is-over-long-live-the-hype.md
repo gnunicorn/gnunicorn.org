@@ -4,6 +4,7 @@ title: The hype is over. Long live the hype
 date: '2014-04-14T00:00:00.000Z'
 category:
 - Thoughts
+- business
 image: /assets/posts/the-hype-is-over-long-live-the-hype-32bd6983bbcb7c6fbc6c0e317eeb7b068ce3a70958.jpg
 redirects:
 - /t/114

@@ -4,6 +4,7 @@ title: Pretty is the unknown
 date: '2013-01-04T00:00:00.000Z'
 category:
 - Thoughts
+- community
 redirects:
 - /t/70
 - /t/70/

@@ -4,6 +4,7 @@ title: Production is Research
 date: '2013-12-12T00:00:00.000Z'
 category:
 - Thoughts
+- business
 redirects:
 - /t/109
 - /t/109/

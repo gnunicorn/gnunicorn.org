@@ -5,6 +5,7 @@ date: '2012-05-23T00:00:00.000Z'
 category:
 - Tips & Tricks
 - Best Practices
+- business
 redirects:
 - /t/48
 - /t/48/

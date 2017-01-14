@@ -4,6 +4,7 @@ title: Technology ≠ Product
 date: '2012-04-26T00:00:00.000Z'
 category:
 - Tips & Tricks
+- business
 redirects:
 - /t/46
 - /t/46/

@@ -4,6 +4,7 @@ title: Diversity is crucial for startup culture
 date: '2013-07-31T00:00:00.000Z'
 category:
 - Thoughts
+- community
 redirects:
 - /t/97
 - /t/97/

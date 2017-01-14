@@ -17,7 +17,7 @@ github_username:  gnunicorn
 timezone: "Europe/Berlin"
 LSI: true
 
-permalink: /blog/:title/
+permalink: /writings/:title/
 show_drafts: null
 limit_posts: 0
 future:      false

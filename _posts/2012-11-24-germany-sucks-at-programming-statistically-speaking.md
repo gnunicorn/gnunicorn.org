@@ -4,6 +4,8 @@ title: Germany sucks at programming - statistically speaking
 date: '2012-11-24T00:00:00.000Z'
 category:
 - Thoughts
+- tech
+- business
 image: /assets/posts/germany-sucks-at-programming-statistically-speaking3081e9469baa7be30b03a38ded4f73cb3d5cbec521_690x436.png
 redirects:
 - /t/66

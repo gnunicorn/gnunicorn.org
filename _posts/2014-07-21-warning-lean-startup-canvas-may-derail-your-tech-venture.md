@@ -4,6 +4,7 @@ title: 'Warning: Lean Startup Canvas may derail your tech venture'
 date: '2014-07-21T00:00:00.000Z'
 category:
 - Thoughts
+- business
 image: /assets/posts/warning-lean-startup-canvas-may-derail-your-tech-venture-15e4def071fd818a132f9294a83ab393f148830466.jpg
 redirects:
 - /t/117

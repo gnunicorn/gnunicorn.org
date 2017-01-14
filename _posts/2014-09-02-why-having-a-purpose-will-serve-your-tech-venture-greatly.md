@@ -2,8 +2,9 @@
 layout: post
 title: Why having a Purpose will serve your Tech Venture greatly
 date: '2014-09-02T00:00:00.000Z'
-category:
+categories:
 - Thoughts
+- business
 image: /assets/posts/why-having-a-purpose-will-serve-your-tech-venture-greatly-201f9ac16155d1fa485f79c73954a4707d420e9f5e.jpg
 redirects:
 - /t/123

@@ -4,6 +4,7 @@ title: Crowdfunding unequals Crowdfunding
 date: '2013-03-13T00:00:00.000Z'
 category:
 - Thoughts
+- business
 redirects:
 - /t/79
 - /t/79/

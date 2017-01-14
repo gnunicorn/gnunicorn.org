@@ -4,6 +4,7 @@ title: Berlin has no infrastructure for startups
 date: '2012-08-03T00:00:00.000Z'
 category:
 - Thoughts
+- business
 redirects:
 - /t/56
 - /t/56/

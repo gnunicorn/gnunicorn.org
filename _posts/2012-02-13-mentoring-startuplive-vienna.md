@@ -5,6 +5,7 @@ date: '2012-02-13T00:00:00.000Z'
 category:
 - Meta
 - News
+- personal
 image: /assets/posts/mentoring-startuplive-vienna31addcb86a30ed55e6bf430ec8c7e246eefefd7d36.png
 redirects:
 - /t/41

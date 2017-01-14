@@ -4,6 +4,7 @@ title: Blind from what we see
 date: '2013-01-24T00:00:00.000Z'
 category:
 - Thoughts
+- tech
 redirects:
 - /t/73
 - /t/73/

@@ -5,6 +5,7 @@ date: '2014-10-05T12:46:18.160Z'
 category:
 - Tips & Tricks
 - Web-Resources
+- business
 image: /assets/posts/2-open-source-business-models-by-former-mysql-ceo-marten-mickos-702fe46b44fe0b311fb343c565c63c746c2d353e17.jpg
 redirects:
 - /t/125

@@ -4,6 +4,7 @@ title: Job Posting don&rsquo;t solve the Dev Lack Problem
 date: '2012-07-22T00:00:00.000Z'
 category:
 - Thoughts
+- community
 redirects:
 - /t/55
 - /t/55/

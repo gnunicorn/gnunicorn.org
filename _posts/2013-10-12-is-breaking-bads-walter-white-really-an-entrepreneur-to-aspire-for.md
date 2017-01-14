@@ -4,6 +4,8 @@ title: Is Breaking Bad&rsquo;s Walter White really an entrepreneur to aspire for
 date: '2013-10-12T00:00:00.000Z'
 category:
 - Thoughts
+- business
+- community
 image: /assets/posts/is-breaking-bads-walter-white-really-an-entrepreneur-to-aspire-for-148f09d9031605f003202d87be5c53f80f26f39257.jpg
 redirects:
 - /t/104

@@ -4,6 +4,7 @@ title: Platforms are for publishing
 date: '2013-07-17T00:00:00.000Z'
 category:
 - Thoughts
+- business
 redirects:
 - /t/95
 - /t/95/

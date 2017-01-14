@@ -5,6 +5,7 @@ date: '2014-04-22T00:00:00.000Z'
 category:
 - Thoughts
 - OpenSource
+- community
 image: /assets/posts/stop-it-opensource-google-aint-gonna-care-about-you-ever-25c537f1ea97b6f17e2684a1337e792c63c3ea2cac.jpg
 redirects:
 - /t/115

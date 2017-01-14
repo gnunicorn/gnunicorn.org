@@ -6,6 +6,7 @@ date: '2011-12-04T00:00:00.000Z'
 category:
 - Tips & Tricks
 - Best Practices
+- tech
 redirects:
 - /t/37
 - /t/37/

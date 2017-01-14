@@ -4,6 +4,7 @@ title: How do you learn to code?
 date: '2013-12-30T00:00:00.000Z'
 category:
 - Thoughts
+- tech
 image: /assets/posts/how-do-you-learn-to-code-28db809a7b210032c27a4298d98150f948c97ad968.JPG
 redirects:
 - /t/110

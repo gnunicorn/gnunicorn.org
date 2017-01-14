@@ -4,6 +4,8 @@ title: 'Recoining terms: use for-good instead non-profit'
 date: '2013-11-14T00:00:00.000Z'
 category:
 - Thoughts
+- community
+- business
 image: /assets/posts/recoining-terms-use-for-good-instead-non-profit-34b402639fef0f057c3268de944d351d99d03d81bd.jpg
 redirects:
 - /t/107

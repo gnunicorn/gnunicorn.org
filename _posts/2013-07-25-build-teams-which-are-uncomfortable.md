@@ -5,6 +5,8 @@ date: '2013-07-25T00:00:00.000Z'
 category:
 - Tips & Tricks
 - Best Practices
+- community
+- business
 redirects:
 - /t/96
 - /t/96/

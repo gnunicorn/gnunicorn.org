@@ -4,7 +4,8 @@ layout: post
 title: "AreWeWebYet Relaunch"
 date: 2016-02-16
 image: http://www.arewewebyet.org/assets/screenshot.png
-
+categories:
+  - tech
 tags:
   - awwy
   - bashy

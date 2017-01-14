@@ -4,6 +4,7 @@ title: Why I didn&rsquo;t bother voting against Leistungsschutzrecht
 date: '2012-10-21T00:00:00.000Z'
 category:
 - Thoughts
+- business
 redirects:
 - /t/63
 - /t/63/

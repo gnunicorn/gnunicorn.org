@@ -4,6 +4,7 @@ title: Not Deciding is a Decision
 date: '2013-04-02T00:00:00.000Z'
 category:
 - Thoughts
+- business
 redirects:
 - /t/81
 - /t/81/

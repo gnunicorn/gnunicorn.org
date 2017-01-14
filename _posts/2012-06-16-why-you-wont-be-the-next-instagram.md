@@ -4,6 +4,7 @@ title: Why you won&rsquo;t be the next Instagram
 date: '2012-06-16T00:00:00.000Z'
 category:
 - Tips & Tricks
+- business
 redirects:
 - /t/51
 - /t/51/

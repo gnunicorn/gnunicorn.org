@@ -4,6 +4,7 @@ title: The flaws of todays crowdinvestment models
 date: '2013-03-21T00:00:00.000Z'
 category:
 - Thoughts
+- business
 redirects:
 - /t/80
 - /t/80/

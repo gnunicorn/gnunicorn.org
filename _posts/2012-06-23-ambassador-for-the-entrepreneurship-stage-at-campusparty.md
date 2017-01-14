@@ -5,6 +5,7 @@ date: '2012-06-23T00:00:00.000Z'
 category:
 - Meta
 - News
+- personal
 redirects:
 - /t/52
 - /t/52/

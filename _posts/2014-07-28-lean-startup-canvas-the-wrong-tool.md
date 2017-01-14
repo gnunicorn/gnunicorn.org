@@ -4,6 +4,7 @@ title: 'Lean Startup Canvas: the wrong tool'
 date: '2014-07-28T00:00:00.000Z'
 category:
 - Thoughts
+- business
 image: /assets/posts/lean-startup-canvas-the-wrong-tool-177047a3bd877be0d5b04b23e164dbe3b917c1b5b6.jpg
 redirects:
 - /t/118

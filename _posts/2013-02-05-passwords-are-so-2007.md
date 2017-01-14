@@ -5,6 +5,7 @@ date: '2013-02-05T00:00:00.000Z'
 category:
 - Tips & Tricks
 - Best Practices
+- tech
 redirects:
 - /t/74
 - /t/74/

@@ -4,6 +4,7 @@ title: Content creation isn&rsquo;t about the tool
 date: '2013-07-11T00:00:00.000Z'
 category:
 - Thoughts
+- business
 redirects:
 - /t/94
 - /t/94/

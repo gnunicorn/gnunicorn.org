@@ -5,6 +5,7 @@ date: '2013-04-15T00:00:00.000Z'
 category:
 - Tips & Tricks
 - Best Practices
+- tech
 image: /assets/posts/get-out-of-the-way19494f07cecf2c38403ca6d75dafb71fa074d1780c_300x500.png
 redirects:
 - /t/83

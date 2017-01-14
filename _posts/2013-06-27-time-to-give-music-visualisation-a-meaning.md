@@ -4,6 +4,7 @@ title: Time to give music visualisation a meaning
 date: '2013-06-27T00:00:00.000Z'
 category:
 - Idea Pool
+- tech
 image: /assets/posts/time-to-give-music-visualisation-a-meaning-68d3c38200cd5c45fcbe72e36e4fd80af817cd3767.jpg
 redirects:
 - /t/92

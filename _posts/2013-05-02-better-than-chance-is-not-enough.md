@@ -4,6 +4,7 @@ title: Better than chance is not enough
 date: '2013-05-02T00:00:00.000Z'
 category:
 - Thoughts
+- tech
 redirects:
 - /t/85
 - /t/85/

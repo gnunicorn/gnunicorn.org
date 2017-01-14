@@ -4,6 +4,7 @@ title: Ode to the Startup
 date: '2011-10-20T00:00:00.000Z'
 category:
 - Meta
+- personal
 redirects:
 - /t/34
 - /t/34/

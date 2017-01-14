@@ -5,6 +5,7 @@ date: '2013-02-27T00:00:00.000Z'
 category:
 - Meta
 - News
+- personal
 redirects:
 - /t/77
 - /t/77/

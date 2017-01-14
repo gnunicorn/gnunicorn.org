@@ -4,6 +4,7 @@ title: Looking Back on CampusParty
 date: '2012-09-06T00:00:00.000Z'
 category:
 - Thoughts
+- personal
 image: /assets/posts/looking-back-on-campusparty-426a3b4e404cdb8b738b0213ce897ce25683146477.jpg
 redirects:
 - /t/59

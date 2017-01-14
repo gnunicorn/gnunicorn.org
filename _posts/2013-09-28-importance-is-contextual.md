@@ -4,6 +4,7 @@ title: Importance is contextual
 date: '2013-09-28T00:00:00.000Z'
 category:
 - Thoughts
+- tech
 redirects:
 - /t/103
 - /t/103/

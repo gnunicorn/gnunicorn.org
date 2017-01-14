@@ -4,6 +4,7 @@ title: Starting in the north
 date: '2012-11-03T00:00:00.000Z'
 category:
 - Thoughts
+- community
 redirects:
 - /t/64
 - /t/64/

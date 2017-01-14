@@ -4,6 +4,7 @@ title: Location based Services - Should I care about them
 date: '2010-09-23T00:00:00.000Z'
 category:
 - Tips & Tricks
+- business
 redirects:
 - /t/29
 - /t/29/

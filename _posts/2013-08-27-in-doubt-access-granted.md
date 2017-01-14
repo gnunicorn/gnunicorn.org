@@ -5,6 +5,7 @@ date: '2013-08-27T00:00:00.000Z'
 category:
 - Tips & Tricks
 - Best Practices
+- tech
 image: /assets/posts/in-doubt-access-granted-678c61dc164abde3b0ec82ee662d754a3a14b4421f.jpg
 redirects:
 - /t/99

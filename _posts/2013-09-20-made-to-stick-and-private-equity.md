@@ -4,6 +4,7 @@ title: Made to Stick and Private Equity
 date: '2013-09-20T00:00:00.000Z'
 category:
 - Tips & Tricks
+- business
 image: /assets/posts/made-to-stick-and-private-equityq
 redirects:
 - /t/102

@@ -5,6 +5,8 @@ date: '2012-08-16T00:00:00.000Z'
 category:
 - Tips & Tricks
 - Case Studies
+- tech
+- business
 redirects:
 - /t/57
 - /t/57/

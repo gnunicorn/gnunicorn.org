@@ -5,6 +5,7 @@ date: '2013-10-25T00:00:00.000Z'
 category:
 - Tips & Tricks
 - Case Studies
+- business
 image: /assets/posts/if-the-airbnb-model-is-so-easy-why-is-it-so-rare-21ad93a03431539e699a88cc906239a815b3e585d6.jpg
 redirects:
 - /t/105

@@ -4,6 +4,7 @@ title: This ain&rsquo;t California
 date: '2013-08-08T00:00:00.000Z'
 category:
 - Thoughts
+- business
 image: /assets/posts/this-aint-california-1342b8b4723d27cff749b094b4dce6b52c31c63fee.jpg
 redirects:
 - /t/98

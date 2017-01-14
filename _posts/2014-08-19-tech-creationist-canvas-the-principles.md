@@ -5,6 +5,7 @@ date: '2014-08-19T17:02:00.000Z'
 category:
 - Tools
 - Tech Creationist Canvas
+- business
 image: /assets/posts/tech-creationist-canvas-the-principles-16fd32cfefd48d139280a2294735bb6f95d8db3092.png
 redirects:
 - /t/121

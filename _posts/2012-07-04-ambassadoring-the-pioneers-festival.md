@@ -5,6 +5,7 @@ date: '2012-07-04T00:00:00.000Z'
 category:
 - Meta
 - News
+- personal
 image: /assets/posts/ambassadoring-the-pioneers-festival-27e633c7bf28015846cc2feecf7b1cf56aa5c6784b.png
 redirects:
 - /t/53

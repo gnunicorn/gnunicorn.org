@@ -4,6 +4,8 @@ title: Privacy vs. the Cloud
 date: '2012-11-14T00:00:00.000Z'
 category:
 - Thoughts
+- tech
+- business
 redirects:
 - /t/65
 - /t/65/

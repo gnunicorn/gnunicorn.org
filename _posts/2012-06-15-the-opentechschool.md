@@ -5,6 +5,7 @@ date: '2012-06-15T00:00:00.000Z'
 category:
 - Meta
 - News
+- community
 redirects:
 - /t/50
 - /t/50/

@@ -5,6 +5,7 @@ date: '2014-08-19T16:50:00.000Z'
 category:
 - Tools
 - Tech Creationist Canvas
+- business
 image: /assets/posts/the-tech-creationist-canvas-explained-16fd32cfefd48d139280a2294735bb6f95d8db3092.png
 redirects:
 - /t/120

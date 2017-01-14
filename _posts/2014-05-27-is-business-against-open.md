@@ -5,6 +5,7 @@ date: '2014-05-27T00:00:00.000Z'
 category:
 - Thoughts
 - OpenSource
+- business
 image: /assets/posts/is-business-against-open-198906938a71eae45ab5f3f3aa547f94ec8db81656.jpg
 redirects:
 - /t/116

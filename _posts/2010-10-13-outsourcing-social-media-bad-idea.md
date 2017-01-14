@@ -4,6 +4,7 @@ title: Outsourcing Social Media? Bad idea!
 date: '2010-10-13T00:00:00.000Z'
 category:
 - Tips & Tricks
+- business
 redirects:
 - /t/31
 - /t/31/

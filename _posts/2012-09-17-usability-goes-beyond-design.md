@@ -4,6 +4,7 @@ title: Usability goes beyond design
 date: '2012-09-17T00:00:00.000Z'
 category:
 - Tips & Tricks
+- tech
 - Best Practices
 redirects:
 - /t/60

@@ -4,6 +4,7 @@ title: About copycats and deutsche doggen
 date: '2011-10-26T00:00:00.000Z'
 category:
 - Thoughts
+- business
 redirects:
 - /t/35
 - /t/35/

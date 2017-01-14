@@ -4,6 +4,8 @@ title: Berlin&rsquo;s future? Same old same old
 date: '2014-03-12T00:00:00.000Z'
 category:
 - Thoughts
+- business
+- community
 image: /assets/posts/berlins-future-same-old-same-old-3311c2af1c462763937b7e7aa43a6e410dc73de399.jpg
 redirects:
 - /t/112

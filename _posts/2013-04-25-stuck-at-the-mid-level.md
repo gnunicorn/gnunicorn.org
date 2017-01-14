@@ -4,6 +4,7 @@ title: Stuck at the mid level
 date: '2013-04-25T00:00:00.000Z'
 category:
 - Thoughts
+- business
 redirects:
 - /t/84
 - /t/84/

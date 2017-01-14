@@ -4,6 +4,7 @@ title: Arts are the root of Entrepreneurship
 date: '2012-04-12T00:00:00.000Z'
 category:
 - Thoughts
+- business
 redirects:
 - /t/45
 - /t/45/

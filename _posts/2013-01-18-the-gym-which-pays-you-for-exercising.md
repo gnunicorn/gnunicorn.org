@@ -4,6 +4,8 @@ title: The gym which pays you for exercising
 date: '2013-01-18T00:00:00.000Z'
 category:
 - Idea Pool
+- tech
+- business
 redirects:
 - /t/72
 - /t/72/

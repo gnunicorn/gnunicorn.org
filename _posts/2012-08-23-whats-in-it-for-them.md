@@ -4,6 +4,7 @@ title: What&rsquo;s in it for them?
 date: '2012-08-23T00:00:00.000Z'
 category:
 - Thoughts
+- business
 redirects:
 - /t/58
 - /t/58/

@@ -4,6 +4,7 @@ title: Rework and Delivering Happiness
 date: '2013-09-04T00:00:00.000Z'
 category:
 - Tips & Tricks
+- business
 image: /assets/posts/rework-and-delivering-happinessq
 redirects:
 - /t/100

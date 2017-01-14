@@ -52,3 +52,16 @@
     width: 80%;
   }
 }
+
+.post-list-short {
+  > li {
+    margin-bottom: 2em;
+    h2 {
+      font-size: 1.5em;
+    }
+    h3 {
+      font-size: 1.05em
+    }
+  }
+  
+}

@@ -5,6 +5,7 @@ date: '2012-04-05T00:00:00.000Z'
 category:
 - Meta
 - News
+- personal
 image: /assets/posts/mentoring-startuplive-copenhagen-this-time263c3bdd246055b5442162fc7fad38b4650517398a.png
 redirects:
 - /t/44
