@@ -41,9 +41,12 @@
   }
 
   .post-content {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 200;
     text-align: justify;
+    > blockquote {
+      font-style: unset;
+    }
   }
 }
 
