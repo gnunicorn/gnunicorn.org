@@ -1,3 +1,13 @@
+
+
+.publications {
+  display: flex;
+  margin-bottom: 3em;
+  img {
+    max-height: 300px;
+  }
+}
+
 header.ebook {
   display: flex;
   align-items: center;
@@ -32,7 +42,7 @@ header.ebook {
       color: white;
     }
   }
-  
+
   ul.action-bar  {
     width: 100%;
     display: flex;
