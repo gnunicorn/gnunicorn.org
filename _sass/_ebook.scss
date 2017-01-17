@@ -1,0 +1,43 @@
+header.ebook {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2em 0;
+   > * {
+    max-width: 40%;
+    margin-left: 2.5%;
+  }  
+  h2 {
+    font-size: 2em;
+  }
+  h1 {
+    font-size: 4em;
+  }
+
+  ul.insights {
+    list-style: disc;
+    margin-left: 2em;
+  }
+
+  a {
+    color: $action-color;
+    padding: 0.25em 0.5em;
+    display: inline-block;
+    border-radius: 0.2em;
+    &.primary {
+      border: 1px solid $action-color;
+    }
+    &:hover {
+      background: $action-color;
+      color: white;
+    }
+  }
+  
+  ul.action-bar  {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2em auto;
+  }
+}
