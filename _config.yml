@@ -29,6 +29,8 @@ markdown: kramdown
 exclude:
   - .bundle
   - vendor
+  - .vagrant
+  - .git
 
 gems:
 - jekyll-redirect-from
