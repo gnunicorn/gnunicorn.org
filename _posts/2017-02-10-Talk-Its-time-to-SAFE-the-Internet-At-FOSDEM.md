@@ -5,6 +5,7 @@ category:
 - personal
 - talk
 image: /assets/posts/2017-02-10-fosdem-talk.png
+permalink: /talks/fosdem-2017-time-to-safe-the-internet/
 ---
 
 As previously mentioned, I gave a talk about Decentributed Apps (in particularly addressing within The SAFE Network) at FOSDEM 2017, and now the video is finally up:
