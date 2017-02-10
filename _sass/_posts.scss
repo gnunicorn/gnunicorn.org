@@ -47,6 +47,11 @@
     > blockquote {
       font-style: unset;
     }
+    video, iframe {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+    }
   }
 }
 
