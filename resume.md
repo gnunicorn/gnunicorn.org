@@ -20,13 +20,13 @@ This is an incomplete list of my professional work experience. For a more compre
 
 # **Benjamin Kampmann**
 
-Freelancer OpenSource Software Architect, Engineer & Manager
+Freelancer OpenSource Software Architect, Engineer, Lead &Manager
 
-Berlin, Amsterdam
+Berlin
 
-<img src="http://svgporn.com/logos/google-gmail.svg" class="socialicon"> ben@create-build-execute.com
-<img src="http://svgporn.com/logos/twitter.svg" class="socialicon"/> @SirDonQui
-<img src="http://svgporn.com/logos/github-icon.svg" class="socialicon"/> ligthyear
+<img src="http://svgporn.com/logos/google-gmail.svg" class="socialicon"> ben@gnunicorn.org
+<img src="http://svgporn.com/logos/twitter.svg" class="socialicon"/> @GNUnicornBen
+<img src="http://svgporn.com/logos/github-icon.svg" class="socialicon"/> GNUnicorn
 
   </div>
 
@@ -38,40 +38,59 @@ Berlin, Amsterdam
 ## Experience
 
 
-### <span class="time">2012 – today </span>Freelance Software Engineer and Architect
+### <span class="time">2009 – today </span>Freelance Software Engineer and Architect
 
-#### [wwww.create-build-execute.com](/)
+#### [GNUnicorn.org](/)
 
 As a freelancer, I have worked on a number of projects. Some are listed here, but you can see a more complete [body of work here](/body-of-work/).
 
+### <span class="time">2017 – today </span>[DEMOKRATIE IN BEWEGUNG](https://bewegung.jetzt/)
 
-### <span class="time">2016 – today </span>[IMMMR](http://www.immmr.com/)
+#### Co-CEO & CTO, volunteer
 
-#### Lead Engineer Core SDK, Freelance
+DEMOKRATIE IN BEWEGUNG is a new progressive movement and political party in Germany. I joined it early on, co-authored its statues and since founding have been leading and programming the product development of our own tools (for participation but also the internal back-office), administrating the technical infrastructure and building the organisation and the community as a whole.  
 
-I joined this communication and messenger startup of Germanys biggest ISP  as part of the backend team to restructure and reimplement the backend and database services. Soon after I proposed a structural change to implement the core database replication features on through a cross-platform SDK team which I am leading.
-
-#### · CouchDB · Python · iOS · Android ·
-
-
-### <span class="time">2012 – today </span>[OpenTechSchool](http://www.opentechschool.org/) e.V.
-
-#### Founder, Chairperson (2013 - 2015), Organiser
-
-Founding Core Member of the OpenTechSchool Initiative. A volunteer run non-profit, organising learning events and workshops in coding and tech. As part of the local Team in Berlin, I am helping organising workshops and other events there, on the global level I am overseeing the technical infrastructure and operations. As part of team blueprint I am working on the bigger picture and the more long-term vision and strategies of the organisation.
-
-#### Chairperson of Board of Directors from 2013 - 2015.
+#### · Django · Docker · CouchDB · Vue.js ·  
 
 
 ### <span class="time">2016 – today </span>[The Bashy Initiative](http://www.bashy.io/)
 
 #### Founder, Director
 
-Founder and Director of The Bashy Initiative – taking care of people in open source. The Bashy Initiative is an umbrella organisation for projects, services and events to improve the infrastructure behind open source, with a special focus on the needs, mental health and work life of the open source citizens.
+Founder and Director of The Bashy Initiative – taking care of people, who care. The Bashy Initiative is an umbrella organisation for projects, services and events to improve the infrastructure of the open source and non-profit communities, with a focus on the needs, mental health and work life of all its people.
 
-As Founder and Director I transferred some of my personal projects over to the organisation, am actively building and creating others as well as spread the word about the Initiative.
+As founder and director I transferred some of my personal projects over to the organisation, am actively building and creating others as well as spread the word about the initiative.
 
 #### · [AreWeWebYet.org](http://www.AreWeWebYet.org) · [Clippy-Service](http://clippy.bashy.io) · [Launchpage](http://launchpage.bashy.io) ·
+
+### <span class="time">Sept 2016 – April 2017 </span>[MaidSafe Inc](https://maidsafe.net/)
+
+#### SDK & API-Lead, Community Evangelist
+
+At MaidSafe I was in charge of architecting the APIs, which allow developers to interact with the decentralised SAFE network. As such I remodelled the network-wide data structures to allow for more expansive and scalable workflows and implemented the SDKs for the browser, desktop and mobile SDKs.
+
+Secondly I was giving talks and presentations and facilitated events in order to spread the word and expand the developer and user community.   
+
+#### · Rust · Decentralisation · Javascript · Community ·
+
+
+### <span class="time">2012 – 2017 </span>[OpenTechSchool](http://www.opentechschool.org/) e.V.
+
+#### Founder, Chairperson (2013 - 2015), Organiser, Coach
+
+Founding Core Member of the OpenTechSchool Initiative. A volunteer run non-profit, organising learning events and workshops in coding and tech. As part of the local Team in Berlin, I am helping organising workshops and other events there, on the global level I am overseeing the technical infrastructure and operations. As part of team blueprint I am working on the bigger picture and the more long-term vision and strategies of the organisation.
+
+#### Chairperson of Board of Directors from 2013 - 2015.
+
+
+### <span class="time">April – Sept 2016 </span>[IMMMR](http://www.immmr.com/)
+
+#### Lead Engineer Core SDK
+
+I joined this communication and messenger startup of Germanys biggest ISP as part of the backend team to restructure and reimplement the backend and database services. Soon after I proposed a structural change to implement the core database replication features on through a cross-platform SDK team which I lead.
+
+#### · CouchDB · Python · iOS · Android ·
+
 
 ### <span class="time">2013 – 2016 </span>[Hackership](http://www.hackership.org)
 
