@@ -1,3 +1,34 @@
+- name: "Plenum"
+  date: "Apr 2017 – today"
+  link: "http://abstimmen.bewegung.jetzt"
+  pitch: "Modern-day Voting Platform"
+  github: "DemokratieInBewegung/voty"
+  desc: "A petition-like Policy making framework for a modern party, easy to use and vote upon."
+  image: /assets/images/projects/plenum.png
+  image_css: 'background-size: contain; background-repeat: no-repeat'
+  tasks:
+    - engineer
+    - architect
+  technologies:
+    - django
+    - bootstrap
+    - vue-js
+
+- name: "Appntr"
+  date: "Apr 2017 – today"
+  link: "http://mitgliedsantrag.bewegung.jetzt"
+  pitch: "Membership-application Backoffice"
+  github: "DemokratieInBewegung/appntr"
+  desc: "Manages the membership applications for the DiB Party, includes voting and discussion mechanism as well as an interview schedule management system"
+  image: /assets/images/projects/appntr.png
+  image_css: 'background-size: contain; background-repeat: no-repeat'
+  tasks:
+    - engineer
+    - architect
+  technologies:
+    - django
+    - bootstrap
+
 - name: "Clippy Service"
   date: "Feb 2016 – today"
   link: "http://clippy.bashy.io"
@@ -43,7 +74,7 @@
   type: full circle
   pitch: "Bringing together OpenSource Teams and future contributors"
   github: "OpenTechSchool/opensourcebash.org"
-  desc: "A conference-quality (and style) website to showcase and promot the OpenSourceBash event. Plenty of nice animations, typed-test and pretty fade-ins, complete with schedule, map and ticket registration. Build in an MVC pattern with Jekyll on GH-Pages"
+  desc: "A conference-quality (and style) website to showcase and promote the OpenSourceBash event. Plenty of nice animations, typed-test and pretty fade-ins, complete with schedule, map and ticket registration. Build in an MVC pattern with Jekyll on GH-Pages"
   image: /assets/images/projects/opensourcebash.png
   image_css: 'background-size: contain; background-repeat: no-repeat'
   tasks:
@@ -56,8 +87,43 @@
     - CSS3
     - CSS3/Animation
 
+- name: "Collector"
+  date: "Aug – Sept 2017"
+  # link: "http://abstimmen.bewegung.jetzt"
+  pitch: "Modern-day Voting Platform"
+  github: "DemokratieInBewegung/collector"
+  desc: "Offline-first personal information collector for the 2017 election campaign"
+  image: /assets/images/projects/collector.png
+  image_css: 'background-size: contain; background-repeat: no-repeat'
+  tasks:
+    - engineer
+    - architect
+  technologies:
+    - offline-first
+    - pwa
+    - vue-js
+    - couchdb
+
+- name: "SAFE Network"
+  date: "Sept 2016 – Apr 2017"
+  link: "http://www.maidsafe.net"
+  pitch: "The World's First Autonomous Data Network"
+  github: "maidsafe"
+  desc: "As part of the 'frontend team' I was in charge of creating the developer facing API to the network within the browser and through various mobile and development SDKs. Part of the efforts was remodelling the underlying data structures used by the network in order to enable application development."
+  image: /assets/images/projects/safe-network.png
+  image_css: 'background-size: contain; background-repeat: no-repeat'
+  tasks:
+    - engineer
+    - architect
+    - community
+  technologies:
+    - rust
+    - nodejs
+    - SDKs
+    - reactjs
+
 - name: "TechTalks"
-  date: "June 2015 – today"
+  date: "June 2015 – July 2016"
   link: http://www.techtalks.xyz/
   type: full circle
   github: techtalksHQ
