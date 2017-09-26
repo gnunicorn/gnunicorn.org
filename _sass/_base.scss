@@ -192,6 +192,32 @@ pre {
 }
 
 
+.rainbow {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjglIiBzdHlsZT0ic3RvcC1jb2xvcjojNjEyMEJEOyIgLz48c3RvcCBvZmZzZXQ9IjIxJSIgc3R5bGU9InN0b3AtY29sb3I6I0JGMjAyMDsiIC8+PHN0b3Agb2Zmc2V0PSIzMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNGMjk1MkM7IiAvPjxzdG9wIG9mZnNldD0iMzclIiBzdHlsZT0ic3RvcC1jb2xvcjojRTNDRDUyOyIgLz48c3RvcCBvZmZzZXQ9IjQzJSIgc3R5bGU9InN0b3AtY29sb3I6Izg1QkY0MzsiIC8+PHN0b3Agb2Zmc2V0PSI1MyUiIHN0eWxlPSJzdG9wLWNvbG9yOiM0RkJEMjA7IiAvPjxzdG9wIG9mZnNldD0iNjMlIiBzdHlsZT0ic3RvcC1jb2xvcjojMjBCRDIyOyIgLz48c3RvcCBvZmZzZXQ9Ijc1JSIgc3R5bGU9InN0b3AtY29sb3I6IzEwQ0ZBNjsiIC8+PHN0b3Agb2Zmc2V0PSI4NyUiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDk1RkY7IiAvPjxzdG9wIG9mZnNldD0iOTklIiBzdHlsZT0ic3RvcC1jb2xvcjojNTIyQkZGOyIgLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCBmaWxsPSJ1cmwoI2dyYWRpZW50KSIgaGVpZ2h0PSIxMDAlIiB3aWR0aD0iMTAwJSIgLz48L3N2Zz4=);
+  background-image: -webkit-gradient(linear, left top, 90deg, color-stop(8%, #6120BD), color-stop(21%, #BF2020), color-stop(30%, #F2952C), color-stop(37%, #E3CD52), color-stop(43%, #85BF43), color-stop(53%, #4FBD20), color-stop(63%, #20BD22), color-stop(75%, #10CFA6), color-stop(87%, #0095FF), color-stop(99%, #522BFF));
+  background-image: -moz-linear-gradient(90deg,#6120BD 8%,#BF2020 21%,#F2952C 30%,#E3CD52 37%,#85BF43 43%,#4FBD20 53%,#20BD22 63%,#10CFA6 75%,#0095FF 87%,#522BFF 99%);
+  background-image: -webkit-linear-gradient(90deg,#6120BD 8%,#BF2020 21%,#F2952C 30%,#E3CD52 37%,#85BF43 43%,#4FBD20 53%,#20BD22 63%,#10CFA6 75%,#0095FF 87%,#522BFF 99%);
+  background-image: -o-linear-gradient(90deg,#6120BD 8%,#BF2020 21%,#F2952C 30%,#E3CD52 37%,#85BF43 43%,#4FBD20 53%,#20BD22 63%,#10CFA6 75%,#0095FF 87%,#522BFF 99%);
+  background-image: -ms-linear-gradient(90deg,#6120BD 8%,#BF2020 21%,#F2952C 30%,#E3CD52 37%,#85BF43 43%,#4FBD20 53%,#20BD22 63%,#10CFA6 75%,#0095FF 87%,#522BFF 99%);
+  background-image: linear-gradient(90deg,#6120BD 8%,#BF2020 21%,#F2952C 30%,#E3CD52 37%,#85BF43 43%,#4FBD20 53%,#20BD22 63%,#10CFA6 75%,#0095FF 87%,#522BFF 99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position:relative;
+  display:inline-block; /*required*/
+}
+
+.site-title {
+  font-weight: bold;
+  opacity: 0.75;
+  transition: opacity ease-in-out 0.5s;
+}
+
+a.site-title:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+
+
 
 /**
  * Clearfix
