@@ -5,6 +5,7 @@ date: '2013-11-25T00:00:00.000Z'
 category:
 - Thoughts
 - business
+- so-po
 image: /assets/posts/does-the-real-world-impact-of-technology-decrease-over-time-182f75a81765b93ce905a663ef43e363a5360f3b6a.jpg
 redirects:
 - /t/108

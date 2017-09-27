@@ -6,6 +6,7 @@ category:
 - Thoughts
 - community
 - business
+- so-po
 image: /assets/posts/recoining-terms-use-for-good-instead-non-profit-34b402639fef0f057c3268de944d351d99d03d81bd.jpg
 redirects:
 - /t/107

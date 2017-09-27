@@ -5,6 +5,7 @@ date: '2014-03-27T00:00:00.000Z'
 category:
 - Thoughts
 - community
+- so-po
 image: /assets/posts/the-epidemic-of-the-brilliant-asshole-35ef4daa95f2d9ddfc09c346a8375c77da3be7412b.jpg
 redirects:
 - /t/113

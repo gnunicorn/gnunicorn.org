@@ -41,6 +41,20 @@ redirect_from:
     </ul>
   </li>
 
+  <li><h2>Society &amp; Politics</h2>
+    <ul>
+      {% for post in site.categories.so-po limit:6 %}
+        <li>
+          <h3>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+        </li>
+      {% endfor %}
+      <a href="/writings/society-and-politics/">more...</a>
+    </ul>
+  </li>
+
+
   <li><h2>Entrepreneuring</h2>
     <ul>
       {% for post in site.categories.business limit:6 %}

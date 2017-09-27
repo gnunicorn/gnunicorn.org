@@ -5,6 +5,7 @@ date: '2013-11-06T00:00:00.000Z'
 category:
 - Thoughts
 - business
+- so-po
 image: /assets/posts/fighting-unfair-to-even-out-245c490a81506a21e9a0abe70b4ca19e9bc9240484.jpg
 redirects:
 - /t/106

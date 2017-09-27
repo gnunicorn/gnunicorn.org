@@ -5,6 +5,7 @@ date: '2013-06-18T00:00:00.000Z'
 category:
 - Thoughts
 - business
+- so-po
 redirects:
 - /t/91
 - /t/91/
