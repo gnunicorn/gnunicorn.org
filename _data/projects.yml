@@ -14,6 +14,20 @@
     - bootstrap
     - vue-js
 
+- name: "Cobalt"
+  date: "Sept 2016 – today"
+  link: "http://cobalt-org.github.io/"
+  pitch: "Cobalt - A static site generator written in Rust"
+  github: "cobalt-org"
+  desc: "A static site generation written Rust. Inspired by and aims to be feature complete to Hugo and Jekyll. "
+  image: /assets/images/projects/cobalt.png
+  image_css: 'background-size: contain; background-repeat: no-repeat'
+  tasks:
+    - engineer
+  technologies:
+    - rust
+    - bootstrap
+
 - name: "Appntr"
   date: "Apr 2017 – today"
   link: "http://mitgliedsantrag.bewegung.jetzt"
