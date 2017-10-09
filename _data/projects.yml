@@ -157,6 +157,24 @@
     - CSS3
     - CSS3/Animation
 
+
+- name: "Immmr SDK"
+  date: "Mar 2016 – Sept 2016"
+  link: "https://www.immmr.com/"
+  pitch: "Mutli-Device Phone- & Video Calls Mobile"
+  desc: "I was leading the restructuring and implementation of multi-platform internal SDK for address book and message synchronisation of the app."
+  image: /assets/images/projects/immmr.png
+  image_css: 'background-size: contain; background-repeat: no-repeat'
+  tasks:
+    - engineer
+    - architect
+    - community
+  technologies:
+    - couchdb
+    - nodejs
+    - SDKs
+    - python
+    
 - name: "Discourse Answers & Points"
   date: "May 2015 – Sept 2015"
   type: "plugin"
