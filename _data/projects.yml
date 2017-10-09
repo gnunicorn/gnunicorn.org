@@ -19,11 +19,12 @@
   link: "http://cobalt-org.github.io/"
   pitch: "Cobalt - A static site generator written in Rust"
   github: "cobalt-org"
-  desc: "A static site generation written Rust. Inspired by and aims to be feature complete to Hugo and Jekyll. "
+  desc: "A static site generation written Rust. Inspired by and aims to be feature complete to Hugo and Jekyll. I've mostly been working on specific features like SCSS, Syntax Highlighting and Data-Processing."
   image: /assets/images/projects/cobalt.png
   image_css: 'background-size: contain; background-repeat: no-repeat'
   tasks:
     - engineer
+    - contributor
   technologies:
     - rust
     - bootstrap
