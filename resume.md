@@ -42,7 +42,7 @@ Berlin
 
 #### [GNUnicorn.org](/)
 
-As a freelancer, I have worked on a number of projects. Some are listed here, but you can see a more complete [body of work here](/body-of-work/).
+As a freelancer, I have worked on a number of projects. Some are listed here, but you can see a more extensive [body of work here](/body-of-work/).
 
 ### <span class="time">2017 – today </span>[DEMOKRATIE IN BEWEGUNG](https://bewegung.jetzt/)
 
@@ -50,8 +50,15 @@ As a freelancer, I have worked on a number of projects. Some are listed here, bu
 
 DEMOKRATIE IN BEWEGUNG is a new progressive movement and political party in Germany. I joined it early on, co-authored its statues and since founding have been leading and programming the product development of our own tools (for participation but also the internal back-office), administrating the technical infrastructure and building the organisation and the community as a whole.  
 
-#### · Django · Docker · CouchDB · Vue.js ·  
+#### · Django · Docker · Infrastructure · Campaigns · [Plenum](https://abstimmen.bewegung.jetzt)  · [ProKo](https://progressivekoalition.de) · 
 
+### <span class="time">2018 – today </span>[Unterbau Tech](https://unterbau.tech/)
+
+#### Co-Founder, Manager & CTO
+
+At Unterbau Tech we offer hosted tools and communication infrastructure (like chat) for modern, progressive social initiatives and NGOs. I founded this service provider out of seeing how many amazing projects struggle with the technical infrastructure and want to enable them to do their great work making the world a better place by taking this off of their shoulders on a pay-as-you-can solidary pricing model.
+
+#### · Rail · Docker · Infrastructure ·
 
 ### <span class="time">2016 – today </span>[The Bashy Initiative](http://www.bashy.io/)
 
