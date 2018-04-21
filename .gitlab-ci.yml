@@ -70,5 +70,6 @@ deploy:
     #- echo "$SSH_SERVER_HOSTKEYS" > ~/.ssh/known_hosts'
     #- chmod 644 ~/.ssh/known_hosts
 
+    - apt-get install -qq rsync >/dev/null
   script:
     - rsync -r public/* gnunicorn_org@unterbau.tech:~/html
