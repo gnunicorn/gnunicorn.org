@@ -1,10 +1,10 @@
-image: ruby:2.3
 
 stages:
   - build
   - deploy
 
 build:
+  image: ruby:2.3
   stage: build
   only:
   - pages
@@ -26,6 +26,7 @@ build:
     - public
 
 deploy:
+  image: ubuntu
   stage: deploy
   only:
   - pages
@@ -70,6 +71,5 @@ deploy:
     #- echo "$SSH_SERVER_HOSTKEYS" > ~/.ssh/known_hosts'
     #- chmod 644 ~/.ssh/known_hosts
 
-    - apt-get install -qq rsync >/dev/null
   script:
     - rsync -r public/* gnunicorn_org@unterbau.tech:~/html
