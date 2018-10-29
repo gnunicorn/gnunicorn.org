@@ -1,3 +1,21 @@
+- name: "Substrate"
+  date: "Jul 2018 – today"
+  link: "https://www.parity.io/substrate/"
+  pitch: "The foundation for blockchain innovators."
+  github: "paritytech/substrate"
+  desc: "
+
+Substrate builds upon the achievements from the major blockchain protocols, and uses the lessons learned to give developers the latest technology to build flexible blockchains."
+  image: 
+  image_css: 'background-size: contain; background-repeat: no-repeat'
+  tasks:
+    - engineer
+    - architect
+  technologies:
+    - rust
+    - wasm
+    - blockchain
+
 - name: "Plenum"
   date: "Apr 2017 – today"
   link: "http://abstimmen.bewegung.jetzt"
@@ -44,25 +62,6 @@
     - django
     - bootstrap
 
-- name: "Clippy Service"
-  date: "Feb 2016 – today"
-  link: "http://clippy.bashy.io"
-  type: full circle
-  pitch: "Linting for your Rust Project as a Web-Service"
-  github: "ligthyear/clippy-service"
-  desc: "A webservice checking out a Github-Rust project and run the clippy-linter against it, then publishing the result as a neat Repo-Badge."
-  image: /assets/images/projects/clippy.png
-  image_css: 'background-size: contain; background-repeat: no-repeat'
-  tasks:
-    - curator
-    - engineer
-    - designer
-  technologies:
-    - rust
-    - iron
-    - github
-    - docker
-
 - name: "Are We Web Yet"
   date: "Jan 2016 – today"
   link: "http://www.arewewebyet.org"
@@ -84,7 +83,7 @@
     - bash
 
 - name: "OpenSourceBash"
-  date: "Aug 2015 – today"
+  date: "Aug 2015 – Nov 2017"
   link: "http://www.OpenSourceBash.org"
   type: full circle
   pitch: "Bringing together OpenSource Teams and future contributors"
@@ -101,6 +100,25 @@
     - jekyll
     - CSS3
     - CSS3/Animation
+
+- name: "Clippy Service"
+  date: "Feb 2016 – Sept 2017"
+  link: "http://clippy.bashy.io"
+  type: full circle
+  pitch: "Linting for your Rust Project as a Web-Service"
+  github: "ligthyear/clippy-service"
+  desc: "A webservice checking out a Github-Rust project and run the clippy-linter against it, then publishing the result as a neat Repo-Badge."
+  image: /assets/images/projects/clippy.png
+  image_css: 'background-size: contain; background-repeat: no-repeat'
+  tasks:
+    - curator
+    - engineer
+    - designer
+  technologies:
+    - rust
+    - iron
+    - github
+    - docker
 
 - name: "Collector"
   date: "Aug – Sept 2017"

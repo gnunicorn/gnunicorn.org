@@ -24,9 +24,9 @@ Freelancer OpenSource Software Architect, Engineer, Lead &Manager
 
 Berlin
 
-<img src="http://svgporn.com/logos/google-gmail.svg" class="socialicon"> ben@gnunicorn.org
-<img src="http://svgporn.com/logos/twitter.svg" class="socialicon"/> @GNUnicornBen
-<img src="http://svgporn.com/logos/github-icon.svg" class="socialicon"/> GNUnicorn
+<img src="//svgporn.com/logos/google-gmail.svg" class="socialicon"> ben@gnunicorn.org
+<img src="//svgporn.com/logos/twitter.svg" class="socialicon"/> @GNUnicornBen
+<img src="//svgporn.com/logos/github-icon.svg" class="socialicon"/> GNUnicorn
 
   </div>
 
@@ -44,6 +44,15 @@ Berlin
 
 As a freelancer, I have worked on a number of projects. Some are listed here, but you can see a more extensive [body of work here](/body-of-work/).
 
+### <span class="time">Jul 2018 – today </span>[Parity Tech](https://parity.io/)
+
+#### Software Engineer, Architect
+
+At [Parity](https://parity.io) I joined the Substrate/Polkadot-Team, where we are building the next generation interoperable blockchain of blockchain and the decentralised stack that will be the infrastructure for the upcoming Web3.
+
+#### · Rust · [Substrate](https://parity.io/substrate/) · Infrastructure · [Polkadot](https://parity.io/polkadot/) · [Web3](https://web3.foundation/) · WebAssembly · 
+
+
 ### <span class="time">2017 – today </span>[DEMOKRATIE IN BEWEGUNG](https://bewegung.jetzt/)
 
 #### Co-CEO & CTO, volunteer
@@ -51,14 +60,6 @@ As a freelancer, I have worked on a number of projects. Some are listed here, bu
 DEMOKRATIE IN BEWEGUNG is a new progressive movement and political party in Germany. I joined it early on, co-authored its statues and since founding have been leading and programming the product development of our own tools (for participation but also the internal back-office), administrating the technical infrastructure and building the organisation and the community as a whole.  
 
 #### · Django · Docker · Infrastructure · Campaigns · [Plenum](https://abstimmen.bewegung.jetzt)  · [ProKo](https://progressivekoalition.de) · 
-
-### <span class="time">2018 – today </span>[Unterbau Tech](https://unterbau.tech/)
-
-#### Co-Founder, Manager & CTO
-
-At Unterbau Tech we offer hosted tools and communication infrastructure (like chat) for modern, progressive social initiatives and NGOs. I founded this service provider out of seeing how many amazing projects struggle with the technical infrastructure and want to enable them to do their great work making the world a better place by taking this off of their shoulders on a pay-as-you-can solidary pricing model.
-
-#### · Rail · Docker · Infrastructure ·
 
 ### <span class="time">2016 – today </span>[The Bashy Initiative](http://www.bashy.io/)
 
