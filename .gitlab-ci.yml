@@ -9,7 +9,7 @@ build:
   - pages
   before_script:
     - apt-get update >/dev/null
-    - apt-get install -qq nodejs locales rsync >/dev/null
+    - apt-get install -qq nodejs locales >/dev/null
     - echo "en_US UTF-8" > /etc/locale.gen
     - locale-gen en_US.UTF-8
     - export LANG=en_US.UTF-8
@@ -61,6 +61,7 @@ deploy:
     ## more than one server to connect to.
     ##
     - ssh-keyscan unterbau.tech >> ~/.ssh/known_hosts
+    - apt-get install -qq rsync >/dev/null
     - chmod 644 ~/.ssh/known_hosts
 
     ##
