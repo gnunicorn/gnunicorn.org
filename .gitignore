@@ -4,3 +4,4 @@ vendor
 .bundle
 .vagrant
 Gemfile.lock
+.jekyll-cache
