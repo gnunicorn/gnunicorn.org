@@ -46,14 +46,21 @@ As a freelancer, I have worked on a number of projects. Some are listed here, bu
 
 ### <span class="time">Jul 2018 – today </span>[Parity Tech](https://parity.io/)
 
-#### Software Engineer, Architect
+#### Software Engineer, Architect, Team Lead Substrate Client
 
 At [Parity](https://parity.io) I joined the Substrate/Polkadot-Team, where we are building the next generation interoperable blockchain of blockchain and the decentralised stack that will be the infrastructure for the upcoming Web3.
 
 #### · Rust · [Substrate](https://parity.io/substrate/) · Infrastructure · [Polkadot](https://parity.io/polkadot/) · [Web3](https://web3.foundation/) · WebAssembly · 
 
+### <span class="time">2019 – today </span>[radikal*](https://radikal.jetzt/)
 
-### <span class="time">2017 – today </span>[DEMOKRATIE IN BEWEGUNG](https://bewegung.jetzt/)
+#### Co-Founder & CTO, Organiser, volunteer
+
+Radikal* is a new progressive initiative for anti-racism in Germany. Aside from an online publisher for articles and educational material on progressive discourse (like the glossary), we are running a fund to provide access to people from marginilized groups in the political processes in Germany.
+
+#### · Rust · Docker · Infrastructure · Campaigns · 
+
+### <span class="time">2017 – 2019 </span>[DEMOKRATIE IN BEWEGUNG](https://bewegung.jetzt/)
 
 #### Co-CEO & CTO, volunteer
 
@@ -61,7 +68,7 @@ DEMOKRATIE IN BEWEGUNG is a new progressive movement and political party in Germ
 
 #### · Django · Docker · Infrastructure · Campaigns · [Plenum](https://abstimmen.bewegung.jetzt)  · [ProKo](https://progressivekoalition.de) · 
 
-### <span class="time">2016 – today </span>[The Bashy Initiative](http://www.bashy.io/)
+### <span class="time">2016 – 2019 </span>[The Bashy Initiative](http://www.bashy.io/)
 
 #### Founder, Director
 
