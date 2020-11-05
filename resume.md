@@ -12,22 +12,25 @@ This is an incomplete list of my professional work experience. For a more compre
 </div>
 
 
-<div class="print-only" markdown="1" style="clear:both;">
-
-  <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAK6AAAAJDk2ZWE1N2EzLWQwMDItNDU1My04NGVkLTliMmRjZjhlZjZjMw.png" class="avatar" />
-
-  <div markdown="1">
-
-# **Benjamin Kampmann**
-
-Freelancer OpenSource Software Architect, Engineer, Lead &Manager
-
-Berlin
-
-<img src="//svgporn.com/logos/google-gmail.svg" class="socialicon"> ben@gnunicorn.org
-<img src="//svgporn.com/logos/twitter.svg" class="socialicon"/> @GNUnicornBen
-<img src="//svgporn.com/logos/github-icon.svg" class="socialicon"/> GNUnicorn
-
+<div class="resume-head print-only">
+<div style="display: block; flex-shrink: 1">
+  <img src="/assets/images/ben-real.png" class="avatar"  />
+</div>
+  <div>
+    <h1>Benjamin Kampmann</h1>
+    <h4>OpenSource Software Architect, Engineer, Lead & Manager</h4>
+    <p>
+    Magdeburg/Berlin, Germany
+    </p>
+    <ul>
+    <li><img src="/assets/logos/google-gmail.svg" class="socialicon">&nbsp;<script>var s="=b!isfg>#nbjmup;cfoAhovojdpso/psh#?cfoAhovojdpso/psh=0b?";var m="";for(var i=0;i<s.length;i++)m+=String.fromCharCode(s.charCodeAt(i)-1);document.write(m);</script><noscript><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#101;&#110;&#64;&#103;&#110;&#117;&#110;&#105;&#99;&#111;&#114;&#110;&#46;&#111;&#114;&#103;">&#98;&#101;&#110;&#64;&#103;&#110;&#117;&#110;&#105;&#99;&#111;&#114;&#110;&#46;&#111;&#114;&#103;</a></noscript></li>
+    <li><img src="/assets/logos/twitter.svg" class="socialicon"/>&nbsp;<a href="https://twitter.com/gnunicornben">@GNUnicornBen</a></li>
+    <li><img src="/assets/logos/github-icon.svg" class="socialicon"/>&nbsp;<a href="https://github.com/gnunicorn">GNUnicorn</a></li>
+    <li><img src="/assets/logos/telegram.svg" class="socialicon"/>&nbsp;<a href="http://t.me/gnunicorn">@gnunicorn</a></li>
+    <li><img src="/assets/logos/whatsapp.svg" class="socialicon"/><img src="/assets/logos/signal.svg" class="socialicon"/>
+    <script>var s="=b!isfg>#ufm;,5:.287.5314.8653#?,5:/287/5314/8653=0b?";var m="";for(var i=0;i<s.length;i++)m+=String.fromCharCode(s.charCodeAt(i)-1);document.write(m);</script><noscript><a href="&#116;&#101;&#108;&#58;&#43;&#52;&#57;&#45;&#49;&#55;&#54;&#45;&#52;&#50;&#48;&#51;&#45;&#55;&#53;&#52;&#50;">&#43;&#52;&#57;&#46;&#49;&#55;&#54;&#46;&#52;&#50;&#48;&#51;&#46;&#55;&#53;&#52;&#50;</a></noscript>
+    </li>
+    </ul>
   </div>
 
 </div>
@@ -37,20 +40,20 @@ Berlin
 
 ## Experience
 
-
-### <span class="time">2009 – today </span>Freelance Software Engineer and Architect
+### <span class="time">2009 – today </span>Freelance Software Engineer, Architect & Lead
 
 #### [GNUnicorn.org](/)
 
 As a freelancer, I have worked on a number of projects. Some are listed here, but you can see a more extensive [body of work here](/body-of-work/).
 
+
 ### <span class="time">Jul 2018 – today </span>[Parity Tech](https://parity.io/)
 
-#### Software Engineer, Architect, Team Lead Substrate Client
+#### VP of Engineering (interim), Team Lead Substrate Client, Software Engineer, Architect
 
 At [Parity](https://parity.io) I joined the Substrate/Polkadot-Team, where we are building the next generation interoperable blockchain of blockchain and the decentralised stack that will be the infrastructure for the upcoming Web3.
 
-#### · Rust · [Substrate](https://parity.io/substrate/) · Infrastructure · [Polkadot](https://parity.io/polkadot/) · [Web3](https://web3.foundation/) · WebAssembly · 
+#### · Rust · [Substrate](https://parity.io/substrate/) · Infrastructure · [Polkadot](https://parity.io/polkadot/) · [Web3](https://web3.foundation/) · WebAssembly ·
 
 ### <span class="time">2019 – today </span>[radikal*](https://radikal.jetzt/)
 
@@ -58,15 +61,15 @@ At [Parity](https://parity.io) I joined the Substrate/Polkadot-Team, where we ar
 
 Radikal* is a new progressive initiative for anti-racism in Germany. Aside from an online publisher for articles and educational material on progressive discourse (like the glossary), we are running a fund to provide access to people from marginilized groups in the political processes in Germany.
 
-#### · Rust · Docker · Infrastructure · Campaigns · 
+#### · Rust · Docker · Infrastructure · Campaigns ·
 
 ### <span class="time">2017 – 2019 </span>[DEMOKRATIE IN BEWEGUNG](https://bewegung.jetzt/)
 
 #### Co-CEO & CTO, volunteer
 
-DEMOKRATIE IN BEWEGUNG is a new progressive movement and political party in Germany. I joined it early on, co-authored its statues and since founding have been leading and programming the product development of our own tools (for participation but also the internal back-office), administrating the technical infrastructure and building the organisation and the community as a whole.  
+DEMOKRATIE IN BEWEGUNG is a new progressive movement and political party in Germany. I joined it early on, co-authored its statues and since founding have been leading and programming the product development of our own tools (for participation but also the internal back-office), administrating the technical infrastructure and building the organisation and the community as a whole.
 
-#### · Django · Docker · Infrastructure · Campaigns · [Plenum](https://abstimmen.bewegung.jetzt)  · [ProKo](https://progressivekoalition.de) · 
+#### · Django · Docker · Infrastructure · Campaigns · [Plenum](https://abstimmen.bewegung.jetzt)  · [ProKo](https://progressivekoalition.de) ·
 
 ### <span class="time">2016 – 2019 </span>[The Bashy Initiative](http://www.bashy.io/)
 
@@ -84,7 +87,7 @@ As founder and director I transferred some of my personal projects over to the o
 
 At MaidSafe I was in charge of architecting the APIs, which allow developers to interact with the decentralised SAFE network. As such I remodelled the network-wide data structures to allow for more expansive and scalable workflows and implemented the SDKs for the browser, desktop and mobile SDKs.
 
-Secondly I was giving talks and presentations and facilitated events in order to spread the word and expand the developer and user community.   
+Secondly I was giving talks and presentations and facilitated events in order to spread the word and expand the developer and user community.
 
 #### · Rust · Decentralisation · Javascript · Community ·
 
