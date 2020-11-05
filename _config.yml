@@ -24,7 +24,7 @@ future:      false
 unpublished: false
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
 
 exclude:
   - .bundle
