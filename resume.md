@@ -40,14 +40,33 @@ This is an incomplete list of my professional work experience. For a more compre
 
 ## Experience
 
-### <span class="time">2009 – today </span>Freelance Software Engineer, Architect & Lead
+### <span class="time">Feb 2022 – TODAY </span>[Element](https://element.io/) / Matrix
+
+#### Senior Engineer & Team Lead Matrix Rust SDK
+
+For [New Vector/Element](https://element.io/) I am working on and leading the team behind [matrix-rust-sdk](), the future rust-based core of the mobile Element-based Chat Applications.  
+
+#### · Rust · [Matrix](https://matrix.org/) · Infrastructure · End-2-End-Encryption · WebAssembly · FFI ·
+
+
+### <span class="time">Nov 2021 – TODAY </span>[Effektio](https://effektio.org/)
+
+#### Co-Founder & CTO, Engineer- & Product-Lead
+
+With [Effektio]() we are building the next generation of collaboratie, mobile organiser on top of Matrix, the decentralised end-2-end-encrypted communiation network. I am leading the entire engineering department, including design and product of the App. 
+
+#### · Rust · [Matrix](https://matrix.org/) · App · [Flutter](https://flutter.dev/) ·
+
+
+### <span class="time">2009 – today </span>Freelance Software Engineer
 
 #### [GNUnicorn.org](/)
 
 As a freelancer, I have worked on a number of projects. Some are listed here, but you can see a more extensive [body of work here](/body-of-work/).
 
 
-### <span class="time">Jul 2018 – today </span>[Parity Tech](https://parity.io/)
+
+### <span class="time">Jul 2018 – Jan 2022 </span>[Parity Tech](https://parity.io/)
 
 #### VP of Engineering (interim), Team Lead Substrate Client, Software Engineer, Architect
 
@@ -55,7 +74,7 @@ At [Parity](https://parity.io) I joined the Substrate/Polkadot-Team, where we ar
 
 #### · Rust · [Substrate](https://parity.io/substrate/) · Infrastructure · [Polkadot](https://parity.io/polkadot/) · [Web3](https://web3.foundation/) · WebAssembly ·
 
-### <span class="time">2019 – today </span>[radikal*](https://radikal.jetzt/)
+### <span class="time">2019 – 2021 </span>[radikal*](https://radikal.jetzt/)
 
 #### Co-Founder & CTO, Organiser, volunteer
 
