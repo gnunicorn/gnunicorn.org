@@ -1,12 +1,95 @@
+- name: "Effektio"
+  date: "Nov 2021 – TODAY"
+  link: "https://effektio.org"
+  pitch: "Your collaborate pocket organiser."
+  image:  /assets/images/projects/effektio.avif
+  github: "effektio/effektio"
+  desc: "Effektio is your collaborative organizing App for you and your communities - end-2-end-encrypted and decentralised.
+  
+  "
+  image_css: 'background-size: contain; background-repeat: no-repeat'
+  tasks:
+    - engineer
+    - architect
+    - cto
+  technologies:
+    - rust
+    - wasm
+    - matrix
+    - flutter
+
+- name: "Matrix Rust SDK"
+  date: "Nov 2021 – TODAY"
+  link: "https://effektio.org"
+  pitch: "Build your own Matrix Apps and Bots in Rust "
+  image: 
+  github: "matrix-org/matrix-rust-sdk"
+  desc: "With the matrix-rust-sdk with transparent end-2-end-encryption you can easily build your very own Matrix-connected App, chat-client or bot in rust."
+  image_css: 'background-size: contain; background-repeat: no-repeat'
+  tasks:
+    - engineer
+    - lead
+  technologies:
+    - rust
+    - wasm
+    - matrix
+    - ffi
+- name: "cargo-unleash"
+  date: "Feb 2020 – TODAY"
+  pitch: "Your massiv-rust-mono-repo publishing tool"
+  image: /assets/images/projects/cargo-unleash.png
+  github: "paritytech/cargo-unleash"
+  desc: "Publshing massive mono-repos to crates.io is complicated - cargo-unleash helps you do that safely"
+  image_css: 'background-size: contain; background-repeat: no-repeat'
+  tasks:
+    - engineer
+    - architect
+    - lead
+  technologies:
+    - rust
+    - cargo
+
+- name: "Affinity / Wir.MD"
+  date: "Jan 2021 – Oct 2021"
+  link: "https://franka.jetzt"
+  pitch: "Election Campaign Community Organising App"
+  image: /assets/images/projects/wir-md.png
+  github: "teamfranka/affinity"
+  desc: "A community organising App for the election campaign of franka.jetzt for Bundestagswahl 2021"
+  image_css: 'background-size: contain; background-repeat: no-repeat'
+  tasks:
+    - engineer
+    - architect
+    - designer
+    - lead
+  technologies:
+    - parse.com
+    - vuejs
+
+- name: "franka.jetzt"
+  date: "Jan 2021 – Oct 2021"
+  link: "https://franka.jetzt"
+  pitch: "Election Campaign Website & Backend"
+  image: /assets/images/projects/franka-jetzt.png
+  desc: "Wordpress based election campaign website and volunteer organising plattform"
+  image_css: 'background-size: contain; background-repeat: no-repeat'
+  tasks:
+    - engineer
+    - designer
+    - lead
+  technologies:
+    - wordpress
+    - elementor
+
 - name: "Substrate"
-  date: "Jul 2018 – today"
+  date: "Jul 2018 – Jan 2022"
   link: "https://www.parity.io/substrate/"
   pitch: "The foundation for blockchain innovators."
+  image: /assets/images/projects/sub.gif
   github: "paritytech/substrate"
   desc: "
 
 Substrate builds upon the achievements from the major blockchain protocols, and uses the lessons learned to give developers the latest technology to build flexible blockchains."
-  image: 
   image_css: 'background-size: contain; background-repeat: no-repeat'
   tasks:
     - engineer
@@ -17,7 +100,7 @@ Substrate builds upon the achievements from the major blockchain protocols, and 
     - blockchain
 
 - name: "Plenum"
-  date: "Apr 2017 – today"
+  date: "2017 – 2020"
   link: "http://abstimmen.bewegung.jetzt"
   pitch: "Modern-day Voting Platform"
   github: "DemokratieInBewegung/voty"
@@ -33,7 +116,7 @@ Substrate builds upon the achievements from the major blockchain protocols, and 
     - vue-js
 
 - name: "Cobalt"
-  date: "Sept 2016 – today"
+  date: "2016 – 2020"
   link: "http://cobalt-org.github.io/"
   pitch: "Cobalt - A static site generator written in Rust"
   github: "cobalt-org"
@@ -48,7 +131,7 @@ Substrate builds upon the achievements from the major blockchain protocols, and 
     - bootstrap
 
 - name: "Appntr"
-  date: "Apr 2017 – today"
+  date: "2017 – 2019"
   link: "http://mitgliedsantrag.bewegung.jetzt"
   pitch: "Membership-application Backoffice"
   github: "DemokratieInBewegung/appntr"
@@ -63,7 +146,7 @@ Substrate builds upon the achievements from the major blockchain protocols, and 
     - bootstrap
 
 - name: "Are We Web Yet"
-  date: "Jan 2016 – today"
+  date: "2016 – 2018"
   link: "http://www.arewewebyet.org"
   type: full circle
   pitch: "Answering the question is the Rust Ecosystem good enough to do web development yet"
