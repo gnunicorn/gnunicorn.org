@@ -18,11 +18,10 @@ This is an incomplete list of my professional work experience. For a more compre
     <h1>Benjamin Kampmann</h1>
     <h4>OpenSource Software Architect, Engineer, Lead & Manager</h4>
     <p>
-    Magdeburg/Berlin, Germany
+    Lisbon, Portugal
     </p>
     <ul>
     <li><img src="/assets/logos/google-gmail.svg" class="socialicon">&nbsp;<script>var s="=b!isfg>#nbjmup;cfoAhovojdpso/psh#?cfoAhovojdpso/psh=0b?";var m="";for(var i=0;i<s.length;i++)m+=String.fromCharCode(s.charCodeAt(i)-1);document.write(m);</script><noscript><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#101;&#110;&#64;&#103;&#110;&#117;&#110;&#105;&#99;&#111;&#114;&#110;&#46;&#111;&#114;&#103;">&#98;&#101;&#110;&#64;&#103;&#110;&#117;&#110;&#105;&#99;&#111;&#114;&#110;&#46;&#111;&#114;&#103;</a></noscript></li>
-    <li><img src="/assets/logos/twitter.svg" class="socialicon"/>&nbsp;<a href="https://twitter.com/gnunicornben">@GNUnicornBen</a></li>
     <li><img src="/assets/logos/github-icon.svg" class="socialicon"/>&nbsp;<a href="https://github.com/gnunicorn">GNUnicorn</a></li>
     <li><img src="/assets/logos/telegram.svg" class="socialicon"/>&nbsp;<a href="http://t.me/gnunicorn">@gnunicorn</a></li>
     <li><img src="/assets/logos/whatsapp.svg" class="socialicon"/><img src="/assets/logos/signal.svg" class="socialicon"/>
