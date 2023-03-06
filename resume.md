@@ -4,13 +4,11 @@ title: Resume
 permalink: /resume/
 ---
 
-
 <div class="no-print" markdown="1">
 
 This is an incomplete list of my professional work experience. For a more comprehensive list of projects I have worked on, see [my body of work](/body-of-work).
 
 </div>
-
 
 <div class="resume-head print-only">
 <div style="display: block; flex-shrink: 1">
@@ -35,28 +33,19 @@ This is an incomplete list of my professional work experience. For a more compre
 
 </div>
 
-
 <div class="resume" markdown="1">
 
 ## Experience
 
-### <span class="time">Feb 2022 – TODAY </span>[Element](https://element.io/) / Matrix
+### <span class="time">Nov 2021 – TODAY </span> Acter Global
 
-#### Senior Engineer & Team Lead Matrix Rust SDK
-
-For [New Vector/Element](https://element.io/) I am working on and leading the team behind [matrix-rust-sdk](), the future rust-based core of the mobile Element-based Chat Applications.  
-
-#### · Rust · [Matrix](https://matrix.org/) · Infrastructure · End-2-End-Encryption · WebAssembly · FFI ·
-
-
-### <span class="time">Nov 2021 – TODAY </span>[Effektio](https://effektio.org/)
+#### <span class="time">Since Jan 2023</span>, before known as [Effektio](https://effektio.org/)
 
 #### Co-Founder & CTO, Engineer- & Product-Lead
 
-With [Effektio]() we are building the next generation of collaboratie, mobile organiser on top of Matrix, the decentralised end-2-end-encrypted communiation network. I am leading the entire engineering department, including design and product of the App. 
+With [Acter3](https://github.com/acterglobal/a2) (previously [Effektio](https://effektio.org)) we are building the next generation of collaboratie, mobile organiser on top of Matrix, the decentralised end-2-end-encrypted communiation network. I am leading the entire engineering department, including design and product of the App.
 
 #### · Rust · [Matrix](https://matrix.org/) · App · [Flutter](https://flutter.dev/) ·
-
 
 ### <span class="time">2009 – today </span>Freelance Software Engineer
 
@@ -64,7 +53,13 @@ With [Effektio]() we are building the next generation of collaboratie, mobile or
 
 As a freelancer, I have worked on a number of projects. Some are listed here, but you can see a more extensive [body of work here](/body-of-work/).
 
+### <span class="time">Feb 2022 – Feb 2023 </span>[Element](https://element.io/) / Matrix
 
+#### Senior Engineer & Team Lead Matrix Rust SDK
+
+For [New Vector/Element](https://element.io/) I am working on and leading the team behind [matrix-rust-sdk](), the future rust-based core of the mobile Element-based Chat Applications.
+
+#### · Rust · [Matrix](https://matrix.org/) · Infrastructure · End-2-End-Encryption · WebAssembly · FFI ·
 
 ### <span class="time">Jul 2018 – Jan 2022 </span>[Parity Tech](https://parity.io/)
 
@@ -74,11 +69,11 @@ At [Parity](https://parity.io) I joined the Substrate/Polkadot-Team, where we ar
 
 #### · Rust · [Substrate](https://parity.io/substrate/) · Infrastructure · [Polkadot](https://parity.io/polkadot/) · [Web3](https://web3.foundation/) · WebAssembly ·
 
-### <span class="time">2019 – 2021 </span>[radikal*](https://radikal.jetzt/)
+### <span class="time">2019 – 2021 </span>[radikal\*](https://radikal.jetzt/)
 
 #### Co-Founder & CTO, Organiser, volunteer
 
-Radikal* is a new progressive initiative for anti-racism in Germany. Aside from an online publisher for articles and educational material on progressive discourse (like the glossary), we are running a fund to provide access to people from marginilized groups in the political processes in Germany.
+Radikal\* is a new progressive initiative for anti-racism in Germany. Aside from an online publisher for articles and educational material on progressive discourse (like the glossary), we are running a fund to provide access to people from marginilized groups in the political processes in Germany.
 
 #### · Rust · Docker · Infrastructure · Campaigns ·
 
@@ -88,7 +83,7 @@ Radikal* is a new progressive initiative for anti-racism in Germany. Aside from 
 
 DEMOKRATIE IN BEWEGUNG is a new progressive movement and political party in Germany. I joined it early on, co-authored its statues and since founding have been leading and programming the product development of our own tools (for participation but also the internal back-office), administrating the technical infrastructure and building the organisation and the community as a whole.
 
-#### · Django · Docker · Infrastructure · Campaigns · [Plenum](https://abstimmen.bewegung.jetzt)  · [ProKo](https://progressivekoalition.de) ·
+#### · Django · Docker · Infrastructure · Campaigns · [Plenum](https://abstimmen.bewegung.jetzt) · [ProKo](https://progressivekoalition.de) ·
 
 ### <span class="time">2016 – 2019 </span>[The Bashy Initiative](http://www.bashy.io/)
 
@@ -110,7 +105,6 @@ Secondly I was giving talks and presentations and facilitated events in order to
 
 #### · Rust · Decentralisation · Javascript · Community ·
 
-
 ### <span class="time">2012 – 2017 </span>[OpenTechSchool](http://www.opentechschool.org/) e.V.
 
 #### Founder, Chairperson (2013 - 2015), Organiser, Coach
@@ -119,7 +113,6 @@ Founding Core Member of the OpenTechSchool Initiative. A volunteer run non-profi
 
 #### Chairperson of Board of Directors from 2013 - 2015.
 
-
 ### <span class="time">April – Sept 2016 </span>[IMMMR](http://www.immmr.com/)
 
 #### Lead Engineer Core SDK
@@ -127,7 +120,6 @@ Founding Core Member of the OpenTechSchool Initiative. A volunteer run non-profi
 I joined this communication and messenger startup of Germanys biggest ISP as part of the backend team to restructure and reimplement the backend and database services. Soon after I proposed a structural change to implement the core database replication features on through a cross-platform SDK team which I lead.
 
 #### · CouchDB · Python · iOS · Android ·
-
 
 ### <span class="time">2013 – 2016 </span>[Hackership](http://www.hackership.org)
 
@@ -145,7 +137,7 @@ As part of the core team, I help formulate our strategy and execute our long-ter
 
 Joining this growing casual casino games startup for a few months to architect the first iteration of their in-house-developed HTML5 games with realistic physics engines, high class animations and quick, react-js-based UI updates.
 
-#### · HTML5 · ReactJS ·  ES2015 (Babel & Webpack) ·
+#### · HTML5 · ReactJS · ES2015 (Babel & Webpack) ·
 
 ### <span class="time">April - Nov 2015 </span>[NewRelic](https://newrelic.com/)
 
@@ -189,13 +181,11 @@ Designed and implemented a full-featured crowdfunding platform for hollywood mov
 
 ### <span class="time">2011 - 2013 </span>[Club der Beschleuniger](http://www.dieBeschleuniger.de)
 
-
 #### Founder, CEO
 
 I cofounded Club der Beschleuniger, a collective (Genossenschaft) of software developers, who help startup set up and execute their business ideas by providing technical knowledge, expertise and hands-on coding.
 
 #### · Founder · Project Manager · Engineer ·
-
 
 ### <span class="time">2009 - 2012 </span>[Prozentor](http://www.prozentor.de)
 
@@ -204,7 +194,6 @@ I cofounded Club der Beschleuniger, a collective (Genossenschaft) of software de
 I joined to help get a big client project out of the door, but throughout took over more project responsibility, rebuild the entire release and quality assurance process. Among others, here I started my first in-house startup, [socialism](/body-of-work/#socialism).
 
 #### · Pyramid · Oracle DB · jQuery ·
-
 
 ### <span class="time">2007 - 2009 </span>[Fluendo Embedded](http://www.fluendo.com)
 
@@ -220,13 +209,11 @@ I joined a team of three in Barcelona, to build an open source set-top-box multi
 
 I served my civil service as a teacher at an elementary school for mentally disabled kids.
 
-
 ## Education
 
 ### <span class="time">2013</span>Cocktail Barmixer Certificate (IHK)
 
 #### [Barschule Berlin](http://cms.barschuleberlin.de/), Berlin
-
 
 ### <span class="time">2006</span>Abitur
 
